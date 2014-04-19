@@ -1,0 +1,134 @@
+
+/**************** HEAL CODE SCHEDULE, CLASS DESCRIPTION, AND TEACHER DESCRIPTION *******************/
+
+div.healcode .header .date_links {
+    font-size: 1.2em;
+}
+
+.print_version { //hides the print icon to streamline the design
+	display: none; 
+}
+
+div.healcode .header {
+    background-color: #FFFFFF !important;
+}
+div.healcode {
+    color: #373737 !important;
+}
+div.healcode .classname a {
+    color: #373737 !important;
+}
+div.healcode a {
+    color: #75B719 !important;
+}
+div.healcode table.schedule tr th {
+    background-color: #554B1D !important;
+}
+div.healcode table.schedule tr.odd td {
+    background-color: #FFFFFF !important;
+}
+div.healcode table.schedule tr th {
+    color: #FFFFFF !important;
+}
+div.healcode table.schedule tr.even td {
+    background-color: #E6E4D7 !important;
+}
+div.healcode h1 {
+    color: #48750A !important;
+}
+
+
+div.healcode table.schedule tr th.trainer {
+	width:130px;
+}
+
+div.healcode table.schedule tr th.mbo_class {
+	width:180px;
+}
+
+span.class_offered_link a:after {
+	content: '»';
+    font-size: 1.3em;
+    padding-left: 5px;
+}
+
+
+div.class_description {
+	padding-bottom:10px;
+}
+
+div.healcode .class_list .class_show {
+    padding-bottom: 1em;
+}
+
+/* homepage single day schedule */
+body.home div.healcode h1, body.home div.healcode div.header{
+	display:none;
+}
+
+body.home div.healcode {
+	font-size:.9em;
+	margin:	6px auto;
+}
+
+body.home div.healcode input.signup_now {
+	font-size:11px;
+}
+
+body.home div.healcode table.schedule tr th.mbo_class {
+    width: 75px;
+}
+
+body.home div.healcode table.schedule tr th.trainer {
+    width: 75px;
+}	
+
+div#content div.schedule h1 {
+	font-size:1.8em;
+}
+
+/* hides components of healcode */
+div.class_visit_type, div.class_group, div.entry-content div.healcode .header .filters, span.day_links {
+	display:none;
+}
+
+div.healcode .hc_tiny, div.healcode a.hc-button.signup_now  {
+	display:none;
+}
+
+/*
+
+div.healcode div:last-of-type{
+    display: none;
+}*/
+
+div.healcode div div a img {
+	display:none;
+}
+
+img.trainer_image {
+	float:left !important;
+	margin: 0 10px 5px 0;
+	padding: 5px;
+	background: none repeat scroll 0 0 #F7F4E3;
+    box-shadow: 0 0 2px #998A51;
+}
+
+html body.page div#ui-datepicker-div.ui-datepicker {
+	z-index:10 !important;
+	padding-top: 7px !important;
+}
+
+.ui-datepicker-next {
+    left: 87% !important;
+	margin-top: 1px;
+}
+
+.ui-datepicker-previous {
+	margin-top: 1px;
+}
+
+/* hides the "back to list" link on teacher schedule pages */
+div.healcode div.trainer_show div.back_link {
+	display:none;
+}

@@ -1,0 +1,93 @@
+/********************* WELLNESS PAGE ********************/
+
+.bio-box {	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.bio-box .bio-left{	display:block;
+	width:26%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.bio-box .bio-right{
+	display:block;
+	width:74%;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+.entry-content .bio-box .bio-right h3 {
+margin-top: 0px;
+padding-top: 0px;
+}
+
+div.bio-box div.bio-left img.alignnone {	padding:0;
+	margin: 15px 0 0;
+	border: medium none;
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: none;
+}
+
+div.bio-box div.bio-left img.headshot {
+    margin: 15px 0 0 15px;
+    padding: 15px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+	}
+
+div.bio-box div.bio-left p:empty { /*prevents unnessecary whitespace caused by an automatic paragraph to wrap around the first image*/
+	display:none;
+}
+
+div.bio-left a.icon-file-pdf {
+	margin-left:15px;
+}
+
+div.bio-box div.bio-left p {
+	margin-bottom:0;
+}
+
+.bio-box .bio-left .bio-contact-info {
+    clear: both;
+    color: #7F7F7F;
+    display: block;
+    margin: 0 0 15px 8px;/*having a bottom margin here ensures that even if the bio description box is shorter than the left box, the hr doesn't get too close*/
+}
+
+.bio-box .bio-left .bio-contact-info a {
+	color: inherit;
+}
+
+.bio-box .bio-left .bio-contact-info a:hover, div#secondary.widget-area a.icon-calendar:hover, div#secondary.widget-area a.icon-phone:hover, div#secondary.widget-area a.icon-mail:hover, div#secondary.widget-area a.icon-earth:hover, div#secondary.widget-area a.icon-pencil:hover  {
+	color: #598C13;
+	text-decoration:none;
+}
+
+div.bio-box div.bio-right h2 {
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+
+/************TESTIMONIALS*****************/
+.testimonial_rotator_wrap {
+margin: 0px !important;
+padding: 0px !important;
+}
+
+.testimonial_rotator .slide .img img {
+max-width: 100px !important;
+}
+
+.testimonial_rotator .slide .img {
+width: 12% !important;
+margin-right: 3% !important;
+}
+
+.testimonial_rotator_wrap div.text {
+	font-style:italic;
+}

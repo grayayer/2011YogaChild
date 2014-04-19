@@ -1,0 +1,107 @@
+
+/*blog specific*/
+
+/*featured image styling*/
+
+body.single-post {
+	a.featured img.attachment-medium.wp-post-image {
+		border: 1px solid #bbb;
+		float: left;
+	}
+	div#content {
+		h1.entry-title {
+			padding-bottom: 15px;
+		}
+		h2:first-of-type {
+			clear: none;
+		}
+	}
+}
+
+.blog {
+	.hentry, .no-results {
+		margin: 0;
+	}
+
+	#primary article {
+		padding: 20px 20px 15px 20px;
+	}
+
+	.entry-meta {
+		padding-bottom: 15px;
+	}
+}
+
+div#secondary.blog .widget:first-of-type{ /*makes it so that our sidebar widgets align properly with the top*/
+    margin-top: 0px ;
+	}
+	
+
+div#content h1.entry-title {
+    clear: both;
+    color: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.1em;   
+	margin:0;
+	padding: 0px 0 5px;
+	margin-bottom: 0px;
+	max-width: 468px;
+}
+
+
+
+.single-post .entry-header .entry-meta {
+	padding-right: 0;
+}
+.single-post .entry-header .entry-meta {
+	position: absolute;
+	top: 0;
+	left: 0;
+}	
+
+.single-post .entry-content, .entry-summary {
+	padding:0;
+}
+
+.hentry, .no-results {
+    margin: 0 0 0.5em;
+}
+
+.entry-header .comments-link a {
+	top: 1em;
+}
+
+div#comments {
+	padding:0 20px;
+}
+
+/*
+.commentlist .avatar {
+    left: -87px;
+}
+
+.commentlist > li:before {
+     left: -13px;
+} */
+
+.commentlist {
+	width: 367px;
+}
+
+ol.commentlist li.comment {
+	width:415px;
+}
+
+#author-info {
+	margin:15px 0;
+}
+
+.commentlist .children li.comment {/*replies to individual comments, rather than the whole article*/
+	max-width: 375px;
+	border: 1px solid #DDDDDD;
+}
+	
+.commentlist .children .children li.comment {/*replies to individual comments, rather than the whole article*/
+	max-width: 325px;
+}	

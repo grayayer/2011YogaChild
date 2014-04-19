@@ -1,0 +1,186 @@
+
+/************************************* RESPONSIVE DESIGN  **********************************************/
+
+
+/* Rules to govern all widths up to 1024px */
+
+    @media only screen and (max-width: 1024px) {
+
+body.page-id-443 div#primary div.wp-caption:nth-child(3n+1) { /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 23px 20px 0;
+	}
+	
+body.page-id-443 div#primary div.wp-caption:nth-child(4n+1) { /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 0px 20px 0;
+	}	
+	
+}
+
+/* #Tablet (Landscape)
+
+================================================== */
+
+    /* Note: Design for a width of 1024px */
+
+    @media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+body.home #header-widget {
+    width: 64%;
+}
+
+body.home #header #logo img {
+	width:100%;
+}
+
+#access li {
+    font-size: 12px;
+}
+
+input#s { /*resizes the search bar for smaller sizes*/
+    font-size: 12px;
+    padding: 2px 6px 2px 28px;
+}
+
+
+/*so that the sidebar image fills the space better*/
+div#sidebar-featured-image img.wp-post-image { 
+    width: 100%;
+}
+
+.sidebar-image-round {
+	height: auto;
+    margin: 0;
+    max-height: 278px;
+    padding: 0;
+}
+
+/*footer*/
+
+#supplementary.three .widget-area {
+	margin-right: 1.7%;
+	width:auto;
+	}
+	
+div#supplementary.three div#second.widget-area {
+	width:27%;
+}
+
+div#secondary div.ssw_image_element, div#secondary div.ssw_image_element img { /*so that the homepage slideshow presents in full width, not cropping any7thing unnescessarily*/
+    width: 99% !important;
+}
+
+    }
+
+/* #Tablet (Portrait)
+
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    #page {
+    	max-width:960px;
+    }
+
+    #header {
+    	width:99%
+    }
+
+    input#s { /*resizes the search bar for smaller sizes*/
+        font-size: 12px;
+        padding: 0px 6px 0px 28px;
+    }
+
+    div#navbar #s {
+    background-position: 3px center;
+    }
+
+    div#navbar #s:focus {
+    	width:100px; /*how big the field should get after being clicked on*/
+    }
+
+
+    #primary { /*makes it so that the main content area takes up the whole screen, and the sidebar falls below*/
+        padding: 10px 0 20px;
+        width: 100%;
+    }
+
+    #main #content {
+        margin: 0 2.5%; /*ensures the main content blocks are proportionately padded*/
+        width: 95%;
+    	}
+
+    #main #secondary {  /*makes it so that the sidebar content area takes up the whole screen and falls below the main area*/
+        float: right;
+        margin: 0;
+        width: 100%;
+    }
+
+    div#secondary div#smartslideshowwidget-2 div.ssw_main { /*so the slideshow is centered*/
+        margin: 0 auto !important;
+    }
+
+    #header-widget {
+        width: 60%;
+    	font-size:12px;
+    }
+
+
+    #access li {
+        font-size: 11px;
+    }
+
+    .sidebar-image-round { /*so that the top sidebar image doesn't display, since it's not wide enough to fill the space*/
+    	display:none;
+    }
+
+    /*HOMEPAGE*/
+
+    #header-widget div#text-6 {
+        right: 10px;
+    }
+
+    body.home #header #logo {
+        width: 30%;
+    }
+
+    body.home #header #logo img {
+        width: 100%;
+    	margin-top: 30px; /*so that it appears more vertically centered*/
+    }
+
+    body.home #header-widget {
+        width: 63%;
+    }
+
+    div#homepage-intro {
+        font-size: 12px;
+        }
+
+    /*footer*/
+
+
+    #colophon #supplementary .widget-area {
+        float: left;
+    	width: 50%;
+    	margin-right:0;
+    }
+
+    div#supplementary.three div#third.widget-area { /*takes out the recent blog comments so that the address still stays*/
+    	display:none;
+    }
+
+    #site-generator {
+        padding: 20px 15px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+        div#homepage-intro {
+            font-size: 11px;
+        }
+}

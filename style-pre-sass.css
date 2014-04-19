@@ -1,0 +1,1711 @@
+/* 
+Theme Name:     Twenty Eleven Child -Yoga Union 
+Theme URI:      http: //example.com/ 
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Gray Ayer
+Author URI:     http: //your-site.com/ 
+Template:       twentyeleven 
+Version:        0.1.0 
+*/
+
+@import url("../twentyeleven/style.css"); 
+@import url("icomoon70231/style.css"); 
+
+
+
+/*********
+
+green border: #AECE83 = rgba(174, 206, 131, 0.75)
+brown border: #	 = rgba(85, 75, 29, .5)
+links: #	; - a green
+dark green text: #48750A
+body black text : #373737
+
+*********/
+
+/*********** GRAY'S CUSTOM CLASSES*************/
+
+/****************layout**********************/
+
+body {
+	padding:0 !important;
+	margin:0;
+}
+
+body #page {
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/****************typography**********************/
+
+
+a {
+    color: #75B719; /*a green*/
+}
+
+body.page-id-443 #primary article a {
+    color: #666666; /*a grey color for the links on the teacher page for the captions*/
+}
+
+div#content h1, div#content h2, div#content h3 {
+	color:#48750A;
+}
+
+
+div#content h1 {
+	font-size:2em;
+	margin-bottom:5px;
+}
+
+#supplementary h3 {
+	font-weight:bold;
+	letter-spacing: 0.2em;
+	font-size: 12px;
+}
+
+div#content h2, #secondary h2 {
+	font-size:18px;
+}
+
+#secondary h1, #secondary h2, #secondary h3, #secondary h4 {
+    text-align: center;
+}
+
+#secondary a {
+	color:#48750A;
+}
+
+#secondary a.actionbutton {
+    color: #FFF;
+}
+
+#secondary .widget-title {
+    color: #666666;
+    line-height: 1.4em;
+    margin-bottom: 16px;
+}
+
+.entry-content h3, .comment-content h3 {
+    font-size: 13px;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 15px;
+}
+
+a:hover {
+	color:#598C13;
+}
+
+.alignleft {
+	margin-right:20px;
+}
+
+.entry-title {
+	color: #222;
+}
+
+.entry-title,
+.entry-title a {
+	color: #222;
+	text-decoration: none;
+	-moz-transition: color 0.2s linear 0s;
+}
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #1982d1;
+}
+
+p.none {
+	margin:0;
+	padding:0;
+}
+
+a.clickhere {
+	padding-left:20px;
+	background:url(images/right-arrow16px.png) no-repeat;
+	min-height:16px;
+}
+
+hr {
+background-color: #CCC;
+border: 0;
+height: 1px;
+margin-bottom: 1.625em;
+clear: both;
+}
+
+
+/*other*/
+
+.widget ul {
+	margin-left:20px;
+	list-style:disc;
+}
+
+div.entry-content img.attachment-thumbnail {
+	float:left;
+	margin:0 10px 10px 0;
+	border-radius:10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 4px;
+}
+
+div.entry-content img.attachment-thumbnail:hover {
+	background: #eee;
+	border-color: #bbb;
+}
+
+#page {
+    background: none;
+    margin: 10px auto;
+	max-width:66.7em;
+}
+
+.entry-content, .entry-summary {
+    padding: 0;
+}
+
+
+/*image styling*/
+
+.wp-caption {
+	background: #F7F4E3;
+	box-shadow: 0 0 2px #998A51;
+	margin-bottom: 1em;
+	max-width: 96%;
+	padding: 5px;
+	
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	color: #666;
+	font-family: Georgia, serif;
+	font-size: 12px;
+}
+.wp-caption .wp-caption-text {
+	margin-bottom: 0.2em;
+	padding: 0;
+	text-align:center;
+	position: relative;
+}
+
+.wp-caption .wp-caption-text:before {
+	color: #666;
+	content:normal;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ssw_left_arrow { /*the navigation arrow for the slideshow*/
+	margin-left:2px;
+}
+
+h2.gallerytitle, h3.albumlink {
+	margin:0;
+	padding:0;
+}
+
+h3.albumlink {
+	text-transform:none;
+	font-size:.9em;
+	font-weight: normal;
+}
+
+/*header area*/
+
+#branding {
+	position:relative;
+	border-top: medium none;
+	padding-bottom:0;
+	z-index:0; /*otherwise this displays ontop of the foobar*/
+}
+
+#header {
+	border:1px #b9b9b9 solid;
+	min-height:180px;
+	background: url(images/headers/banner_studio.jpg) no-repeat #FFF;
+	display:block;
+	width:99%; /* width:990px; attempting a fluid responsive layout for mobile*/
+	margin-bottom:15px;
+	width:958px; /*because a border of 1px on either side adds up to 960px*/
+	height:220px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+	border-radius:25px;
+	z-index:0
+}
+
+
+/*social media buttons*/
+.socialmedia-buttons {
+    display: block;
+    height: 38px;
+	position:absolute;
+	top:10px;
+	right:15px;
+	z-index:2;
+}
+
+.socialmedia-buttons a {
+	float:right;
+	color:white;
+    float: right;
+    font-size: 1.6em;
+    padding: 0 4px;
+	text-shadow:1px 1px 1px rgba(0,0,0,.75);
+
+	-webkit-transition: color 0.15s ease-in 0s;
+	-moz-transition: color 0.15s ease-in 0s;
+    -ms-transition: color 0.15s ease-in 0s;
+    -o-transition: color 0.15s ease-in 0s;
+	transition: color 0.15s ease-in 0s;
+
+}
+
+
+.socialmedia-buttons a:hover {
+	text-decoration:none;
+	color: rgba(174, 206, 131, 1);
+}
+
+.socialmedia-buttons img.fade {
+    margin-right: 0px !important;
+}
+
+
+/* Search Form */
+
+input#s { /*the search bar - added on 12-16-2012*/
+    height: 24px; /*modified from 33px on 2-29-12*/
+}
+
+div#navbar #searchform {
+    position: relative;
+    right: 5px;
+    top: 5px;
+    text-align: right;
+}
+
+div#navbar #searchform div {
+	margin: 0;
+}
+div#navbar #s {
+	float: right;
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width: 85px;
+	
+	-webkit-border-radius: 0px 10px 10px 0px;
+        border-radius: 0px 10px 10px 0px;
+	
+	background-color: #FFFDF5; /*the tan color the search bar starts off as*/
+}
+
+div#navbar #s:focus {
+	background-color: #f9f9f9; /*the white color the search bar ends with after expansion*/
+	width: 150px; /*how wide the search form ends up as*/
+}
+div#navbar #searchsubmit {
+	display: none;
+}
+div#navbar .only-search #searchform {
+	top: 5px;
+	z-index: 1;
+}
+div#navbar .only-search #s {
+	background-color: #E4E1D0;
+	border-color: #000;
+	color: #222;
+}
+div#navbar .only-search #s,
+div#navbar .only-search #s:focus {
+	width: 85%;
+}
+div#navbar .only-search #s:focus {
+	background-color:#FFF; /*tan color for focus*/
+}
+div#navbar .with-image #searchform {
+	top: auto;
+	bottom: -27px;
+	max-width: 150px;
+}
+div#navbar .only-search + #access div {
+	padding-right: 205px;
+}
+
+/*******this is the nav bar**************/
+
+/*
+#navbar {
+	background-color: #554B1D;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top:5px #554B1D solid;
+	height:44px;
+	clear:left;
+	z-index: 1;
+}
+*/
+
+#access { 
+	margin:0 auto 15px;
+	width:100%;
+	background: #f7f4e3 url(images/tan-noise.png) repeat;
+	border-radius:12px;
+	border:1px #b9b9b9 solid;
+	box-shadow: inset 0 0 1px white;
+}
+
+#access div {
+	margin:0;
+}
+
+#access ul {
+    margin: 0;
+}
+
+#access ul ul {
+    border-top: 0px solid #554B1D;
+	top: 42px;
+}
+
+
+#access a {
+	background: transparent;
+    color: #483d3b;
+	text-transform: uppercase;
+}
+
+#access li:hover > a,
+#access a:focus {
+	background: #f9f9f9; /* Show a solid color for older browsers */
+    -moz-transition: background 0.2s linear 0s;
+    -webkit-transition: background 0.2s linear 0s;
+    transition: background 0.2s linear 0s;
+}
+
+#access ul li#menu-item-623 > a:hover { /*makes the home page link rounded corner - i should really use descendent selectors, but I don't them that well*/
+-webkit-border-radius: 15px 0px 0px 15px;
+        border-radius: 15px 0px 0px 15px;
+}
+
+
+#access ul li ul li a:hover { /*gives a hover effect for the drop-down menu*/
+	background: #FFF; /* Show a solid color for older browsers */
+    -moz-transition: background 0.2s linear 0s;
+    -webkit-transition: background 0.2s linear 0s;
+    transition: font-weight background 0.2s linear 0s;
+	font-weight:bold;
+}
+
+/*content area*/
+
+#main {
+	padding:0;
+	margin:0px auto; /*used to have a 20px top margin, but this didn't render smoothly on chrome, giving the sidebar more spacing, so I put a bottom margin on the header instead*/
+}
+
+#primary {
+	width:38em; /*attempt at getting iphones to display better - for iphones & ipads, it shoudl be 36ems
+	width:570px;*/
+	margin: 0 0 20px 0;
+	padding:20px;
+	background:#FFF;
+	box-shadow: 0 0 2px #554B1D inset;
+	-webkit-box-shadow: 0 0 2px #554B1D inset;
+	-moz-box-shadow: 0 0 2px #554B1D inset;
+}
+
+
+div#primary p { /*Golden ratio calculated for a general content width of 530 pixels*/
+	font-size: 14px;
+	line-height: 23px;
+}
+
+#primary article {
+	padding:0 20px 15px 20px
+}
+
+.singular #content, .left-sidebar.singular #content {
+	margin:0 auto;
+}
+
+
+#secondary{
+
+	width:30em; /*attempt at getting iphones to display better
+    width: 360px;*/ 
+	margin:0;
+	padding:0;
+}
+
+div#secondary .widget, div#sidebar-wyswig-content, div#sidebar-featured-image {
+	background:  none repeat scroll 0 0 #D3E4B8;
+	margin:20px auto;
+	border:#AECE83 2px solid;
+	padding:20px;
+	overflow:hidden;/*makes it so that the backgrounds of the interior divs get clipped into the border as a mask, in Firefox anyway*/
+
+}
+div#secondary .widget, div#sidebar-featured-image, div#sidebar-featured-image div#wyswig-content { /*sets the interior box shadow*/
+	-webkit-box-shadow: 0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+-moz-box-shadow:    0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+box-shadow:         0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+}
+
+div#sidebar-featured-image { /*the surrounding div for the featured image and the wyswig content*/
+	margin:0 auto 20px auto;
+	padding:0;
+	background-color:#FFF;  /* deactivated in order to have a cleaner white border for the image without a caption*/
+}
+
+div#sidebar-featured-image:empty{ /*doesn't work because there are contained divs, even if they are hidden*/
+	display:none;
+}
+
+div.sidebar-image-round:empty {
+	display:none;
+}
+
+.sidebar-image-round {
+	-webkit-border-radius:  19px 19px 0 0;
+	-moz-border-radius:  19px 19px 0 0;
+    border-radius: 19px 19px 0 0;
+    /* height: 293px; disabled or this causes there to be empty space when the image isn't that tall*/
+	border: 2px solid #FFFFFF;
+	height:auto;
+	margin:0;
+	padding:0;
+	max-height: 291px; /*so that there isn't any extra space from the base of the image to the border*/
+	}
+
+div#sidebar-featured-image img.wp-post-image {
+	margin:0 auto;
+	-webkit-border-radius:  16px 16px 0 0;
+	-moz-border-radius:  16px 16px 0 0;
+    border-radius: 16px 16px 0 0;
+    margin: 0 auto;
+    width: 352px;
+}
+
+div#sidebar-featured-image div#wyswig-content{
+	background:  none repeat scroll 0 0 #D3E4B8;
+	padding:10px 15px;
+	-webkit-border-radius: 0 0 19px 19px;
+	-moz-border-radius: 0 0 19px 19px;
+	border-radius: 0 0 19px 19px;
+	border-top: 2px solid rgba(174, 206, 131, 1);
+
+}
+
+div#sidebar-featured-image div#wyswig-content:empty {
+	display:none;
+}
+
+div#wyswig-content h1, div#wyswig-content h2, div#wyswig-content h3, div#wyswig-content h4 {
+	padding-top:10px;
+}
+
+div#sidebar-featured-image div.featured-image-caption{
+    font-size: 16px;
+    /*margin: -7px auto 0; this allows there to not have any gap between the image and the caption - Gray might need to change this back*/
+	margin:0 auto;
+    padding: 10px 10px 5px;
+    text-align: center;
+}
+
+.sidebar-featured-image-p {
+	overflow:hidden;
+	Xborder-radius: 0 0 20px 20px;
+	X-webkit-border-radius: 0 0 20px 20px;
+	margin:0;
+	padding:0;
+	background:#FFF;
+}
+
+div.featured-image-caption:empty {
+	display:none;
+}
+
+div#sidebar-featured-image p:empty {
+	display:none;
+}
+
+#content {
+    margin: 0;
+    width: 100%;
+}
+
+/*footer*/
+
+footer#colophon {
+	/*border:5px #554B1D solid;*/
+	background: none;
+	margin-top:20px;
+	display:inline-block;
+	width:100%;
+}
+
+#supplementary {
+    border-top: none;
+    padding: 10px 20px 0px;
+	position:relative;
+	bottom: -17px;
+}
+
+#site-generator {
+	color:#FFF;
+	background-color:#554B1D;
+	background:url(images/light-tan-wood-bg.png) repeat #554B1D;
+	-webkit-border-TOP-right-radius: 10px;
+	-webkit-border-TOP-left-radius: 10px;
+	-moz-border-radius-TOP-right: 10px;
+	-moz-border-radius-top-left: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	line-height:inherit;
+	padding:20px 15px 5px;
+	box-shadow: 0 1px 5px #3A3314 inset;
+	-moz-box-shadow: 0 1px 5px #3A3314 inset;
+	-webkit-box-shadow: 0 1px 5px #3A3314 inset;
+}
+
+#site-generator a {
+	color:#FFF;
+}
+
+#site-generator .copyright  { float: left; margin: 0; }
+
+#site-generator .credit  { float: right; margin: 0; }
+
+/*controls the border-radius of the main content areas */
+#primary, #secondary, div#secondary .widget, div#sidebar-wyswig-content, div#sidebar-featured-image{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	Xoverflow:hidden;
+	Xposition:static;
+}
+
+footer aside.widget {
+	margin:0;
+}
+
+div.textwidget img.map {
+	padding:0;
+	margin:-7px 0 0 -7px;
+}
+
+div.textwidget p {
+	margin:0;
+	padding:0;
+}
+
+aside#recent-comments-2 {
+	background:url(images/comments-bg.png) no-repeat;
+	height:266px;
+	width:293px;
+}
+
+aside.widget ul#recentcomments {
+	padding:5px 17px;
+	margin-left: 10px;
+	} 
+
+	
+aside#twitter-2 {
+	background:url(images/twitter-bg6.png) no-repeat;
+	height:266px;
+	width:293px;
+}
+
+ul.tweets {
+	margin-left:0;
+	padding:5px 17px;
+	height: 135px;
+    overflow: hidden
+	}
+
+.widget_twitter .timesince {
+    margin-right:0px;
+}
+
+div.textwidget p.footer-contact-info {
+	margin-top:-5px;
+}
+
+div.textwidget p.footer-contact-info a{
+	color:#598C13;
+}
+
+/*************************************** HOMEPAGE *****************************************************/
+
+/* OUTDATED INFO
+body.home #header #logo {
+	display:inline-block;
+	height:215px;
+	margin-left:20px;
+	float:left;
+	overflow:hidden;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+body.home #header #logo img {
+	width:100%;
+}
+
+body.home #header-widget {
+    display: inline-block;
+    float: right;
+    margin: 7px 4px 0 0;
+	width: 650px;
+	height:200px;
+}
+
+
+#header-widget div#text-6{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -23px;
+}
+
+div#homepage-intro {
+    line-height: 1.7em;
+    margin-right: 33px;
+	font-size: 0.9em;
+}
+
+body.home div#content div.announcement {
+	overflow:hidden;
+	position:static;
+}
+*/
+
+div.announce-title {
+	clear:inherit;
+}
+
+div.announce-top {
+	display:block;
+	height:auto;
+}
+
+div#homepage-intro .video-link {
+	top: 10px;
+	position: relative;
+	text-align:center;
+	text-transform: uppercase;
+	}
+
+div#homepage-intro a.lbpModal.video-link img {
+	display:inline-block;
+}
+
+.icon-film:before {
+    font-size: 1.3em;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+/*homepage images*/
+
+body.home div#content div.announcement div.announcement-thumb { /*defines how the announcment thumbnail should look. The surrounding div is necessary to crop the border's correctly for safari browsers*/
+	float:left;
+	margin:0 10px 10px 0;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 4px;
+	overflow:hidden;
+	position:static;
+	width:100px;
+	height:100px;
+}
+
+div.announcement-thumb a img.attachment-thumbnail { /*defines how the announcment thumbnail should look*/
+	border-radius:6px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:6px;
+	width:100px;
+	height:100px;
+}
+
+div#cboxContent div#cboxTitle {
+	display:none !important;
+}
+
+
+
+body.home div#content img.attachment-thumbnail:hover {
+	background: #eee;
+	border-color: #bbb;
+}
+
+body.home div#content div.announcement h2.announcement {
+	clear:none;
+	font-size:22px;
+	font-weight:bold;
+	color:#333;
+}
+
+div.announcement {
+    background: none repeat scroll 0 0 #F7F4E3;
+    padding: 20px;
+	box-shadow: 0 0 2px #554B1D;
+	margin-top: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:2px solid white;
+	font-size: 0.8em
+	}
+
+
+div.announcement:first-of-type {
+	margin-top: 0px;
+}
+
+body.home div.entry-content {
+	clear:left;
+	padding: 0;
+}
+
+body.home div.entry-content p:last-of-type {
+	margin-bottom:0;
+}
+
+div#secondary div.ngg_images {
+	padding:0;
+	margin:0;
+}
+
+div#secondary div.ngg_images img {
+border-radius: 20px
+-webkit-border-radius: 20px;
+}
+/*homepage typography*/
+div#content div.announcement div.announce-title h3{
+	clear:none;
+	color:#54503F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#content div.announcement h3:empty {
+	display:none;
+}
+
+a.actionbutton:empty {
+	display:none;
+}
+
+a.actionbutton {
+	border:##D3E4B8 1px solid;
+	color: #FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding:5px;
+	margin:0;
+    position: relative;
+    top: 11px;
+	letter-spacing: 1px;
+	text-shadow: -1px -1px 0 #86B70B;
+	
+background: rgb(191,210,85); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}	
+
+a.actionbutton:hover {
+background: rgb(191,210,85); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,0.8)), color-stop(50%,rgba(142,185,42,0.8)), color-stop(51%,rgba(114,170,0,0.8)), color-stop(100%,rgba(158,203,45,0.8))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccbfd255', endColorstr='#cc9ecb2d',GradientType=0 ); /* IE6-9 */
+text-decoration:none;
+}
+
+a.actionbutton:active {
+background: rgb(158,203,45); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(158,203,45,1) 0%, rgba(114,170,0,1) 47%, rgba(142,185,42,1) 50%, rgba(191,210,85,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(158,203,45,1)), color-stop(47%,rgba(114,170,0,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(100%,rgba(191,210,85,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ecb2d', endColorstr='#bfd255',GradientType=0 ); /* IE6-9 */
+}
+
+#secondary a.actionbutton {
+	text-align:center; /*doesn't seem to work*/
+}
+
+/*homepage slideshow - mostly isn't useful as of 2-22-2012
+div#secondary div#slideshow-2 {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+}
+
+div#secondary div#slideshow-2 h2, div#secondary div.ngg_images h2{
+	display:none;
+}
+
+div#secondary div#slideshow-2 .widget, div#secondary div.ngg_images img{
+	margin:0;
+	padding:0;
+	border: 2px solid white;
+
+}
+
+*/
+/*
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget { /*the actual container for the images*/ /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow img{ /* this rounds the corners of the images*/ /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.entry-content img, .comment-content img, .widget img {
+	max-width:100%;
+	margin:0 15px 5px 0;
+	padding:5px;
+}
+
+.widget img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+/*homepage non-nextgen slideshow*/
+div#secondary div#smartslideshowwidget-2 {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+div#secondary div#smartslideshowwidget-2 img {
+    margin: 0;
+    padding: 0;
+}
+
+
+div#secondary div#smartslideshowwidget-2 h2{
+	display:none;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main {
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+div#secondary div.ssw_image_element{
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+div#secondary div.ssw_image_element img{
+	margin:0;
+	padding:0;
+	border: 2px solid white;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width:352px;
+	height:232px;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget { /*the actual container for the images*/
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow img{ /* this rounds the corners of the images*/
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.entry-content img, .comment-content img, .widget img {
+	max-width:100%;
+	margin:0 15px 5px 0;
+	padding:5px;
+}
+
+.widget img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*blog specific*/
+div#secondary.blog .widget:first-of-type{ /*makes it so that our sidebar widgets align properly with the top*/
+    margin-top: 0px ;
+	}
+	
+
+.single-post .entry-title {
+    clear: both;
+    color: #222222;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.5em;
+	margin:0;
+	padding:0;
+}
+
+.single-post .entry-header .entry-meta {
+	padding-right: 0;
+}
+.single-post .entry-header .entry-meta {
+	position: absolute;
+	top: 0;
+	left: 0;
+}	
+
+.single-post .entry-content, .entry-summary {
+	padding:0;
+}
+
+.hentry, .no-results {
+    margin: 0 0 0.5em;
+}
+
+div#comments {
+	padding:0 20px;
+}
+
+/*
+.commentlist .avatar {
+    left: -87px;
+}
+
+.commentlist > li:before {
+     left: -13px;
+} */
+
+.commentlist {
+	width: 367px;
+}
+
+ol.commentlist li.comment {
+	width:415px;
+}
+
+#author-info {
+	margin:15px 0;
+}
+
+.commentlist .children li.comment {/*replies to individual comments, rather than the whole article*/
+	max-width: 375px;
+	border: 1px solid #DDDDDD;
+}
+	
+.commentlist .children .children li.comment {/*replies to individual comments, rather than the whole article*/
+	max-width: 325px;
+}	
+
+/**************************** FORMS ****************************/
+.gform_widget div#gform_wrapper_1 .gform_wrapper form#gform1 .gform_heading {
+    margin: 0 !important;
+}
+
+.gform_widget .gform_wrapper .gform_heading {
+    margin: 0 !important;
+}
+
+.gform_widget .gform_wrapper h3.gform_title {
+    margin: 0 !important;
+}
+
+.gform_widget .gform_wrapper {
+    margin: 0;
+}
+
+.gform_widget .gform_wrapper .gform_footer {
+    clear: both;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.gform_widget .gform_wrapper .top_label .gfield_label {
+    font-weight: normal;
+}
+
+
+/*photogallery
+
+.ngg-album-compact {
+    padding-right: 22px !important;
+}*/
+
+
+/*teacher page*/
+
+body.page-id-443 div#primary div.wp-caption {
+	background: #F7F4E3 url(images/tan-noise.png) repeat;
+    box-shadow: 0 0 2px #998A51;
+    margin: 0 23px 20px 0;
+    max-width: 96%;
+    padding: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width:142px !important; /*overides the element */
+}
+
+body.page-id-443 div#primary div.wp-caption:nth-child(3n+1) { /*so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly*/
+    margin-right:0;
+}
+
+body.page-id-443 div#primary div.wp-caption .wp-caption-text {
+	font: 300 15px/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+body.page-id-443 div#primary div.wp-caption:hover, body.page-id-443 div#primary div.wp-caption:active {
+	background:rgba(247, 244, 227, .5);
+}
+
+body.page-id-443 div#primary div.wp-caption a img {
+	background: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding:0;
+	max-width:140px;
+    border: .5px #E4E0D1 solid;
+
+}
+
+body.page-id-443 div#primary div.wp-caption:hover a img:hover {
+	opacity:.8;
+}
+
+/**************** HEAL CODE SCHEDULE, CLASS DESCRIPTION, AND TEACHER DESCRIPTION *******************/
+
+div.healcode .header .date_links {
+    font-size: 1.2em;
+}
+
+div.healcode .header {
+    background-color: #FFFFFF !important;
+}
+div.healcode {
+    color: #373737 !important;
+}
+div.healcode .classname a {
+    color: #373737 !important;
+}
+div.healcode a {
+    color: #75B719 !important;
+}
+div.healcode table.schedule tr th {
+    background-color: #554B1D !important;
+}
+div.healcode table.schedule tr.odd td {
+    background-color: #FFFFFF !important;
+}
+div.healcode table.schedule tr th {
+    color: #FFFFFF !important;
+}
+div.healcode table.schedule tr.even td {
+    background-color: #E6E4D7 !important;
+}
+div.healcode h1 {
+    color: #48750A !important;
+}
+
+
+div.healcode table.schedule tr th.trainer {
+	width:130px;
+}
+
+div.healcode table.schedule tr th.mbo_class {
+	width:180px;
+}
+
+span.class_offered_link a:after {
+	content: '»';
+    font-size: 1.3em;
+    padding-left: 5px;
+}
+
+
+div.class_description {
+	padding-bottom:10px;
+}
+
+div.healcode .class_list .class_show {
+    padding-bottom: 1em;
+}
+
+/* homepage single day schedule */
+body.home div.healcode h1, body.home div.healcode div.header{
+	display:none;
+}
+
+body.home div.healcode {
+	font-size:.9em;
+	margin:	6px auto;
+}
+
+body.home div.healcode input.signup_now {
+	font-size:11px;
+}
+
+body.home div.healcode table.schedule tr th.mbo_class {
+    width: 75px;
+}
+
+body.home div.healcode table.schedule tr th.trainer {
+    width: 75px;
+}	
+
+div#content div.schedule h1 {
+	font-size:1.8em;
+}
+
+/* hides components of healcode */
+div.class_visit_type, div.class_group, div.entry-content div.healcode .header .filters, span.day_links {
+	display:none;
+}
+
+div.healcode .hc_tiny, div.healcode a.hc-button.signup_now  {
+	display:none;
+}
+
+/*
+
+div.healcode div:last-of-type{
+    display: none;
+}*/
+
+div.healcode div div a img {
+	display:none;
+}
+
+img.trainer_image {
+	float:left !important;
+	margin: 0 10px 5px 0;
+	padding: 5px;
+	background: none repeat scroll 0 0 #F7F4E3;
+    box-shadow: 0 0 2px #998A51;
+}
+
+html body.page div#ui-datepicker-div.ui-datepicker {
+	z-index:10 !important;
+	padding-top: 7px !important;
+}
+
+.ui-datepicker-next {
+    left: 87% !important;
+	margin-top: 1px;
+}
+
+.ui-datepicker-previous {
+	margin-top: 1px;
+}
+
+/*********************no sidebar template ***********************/
+body.page-template-no-sidebar-page-php #primary {
+    width: 920px;
+}
+
+div#wyswig-content div.sharing {
+	display:none;
+}
+
+/*********** TABLE FORMATTING **************/
+
+.wp-table-reloaded {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color: #CDCDCD;
+	margin: 10px 0px 15px 0px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+th {
+	background-color: #E6EEEE;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	color: #3D3D3D!important;
+}
+td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+.even td {
+	background-color: #FFFFFF;
+}
+.odd td {
+	background-color: #F0F0F6;
+}
+.row-hover tr:hover td {
+	background-color: #D0D0D6!important;
+}
+.wp-table-reloaded-table-description {
+	clear: both;
+	display: block;
+}
+
+table th {
+    font-size: 1.2em;
+    font-weight: bold;
+	background-color: #554B1D;
+    color: white !important;
+}
+
+table .odd td {
+    background-color: #E6E4D7;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color: #CDCDCD;
+	margin: 10px 0px 15px 0px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+.column-1 {
+	width:70%;
+}
+
+.column-2 {
+    padding-right: 3%;
+    width: 16%;
+	}
+
+/*********** MISC **************/
+img#wpstats {
+	display: NONE;
+	margin: 0;
+}
+
+div#secondary.widget-area div#sidebar-featured-image div#wyswig-content div.sharedaddy {
+	display:none;
+}
+
+a#hellobar-logo {
+	display:none !important;
+}
+
+table.foobar-container {
+	background:url(http://yogaunioncwc.com/wp-content/themes/2011YogaChild/images/green-noise.png) repeat;
+}
+
+
+/********* new responsive sizeing***********/
+#page {
+	max-width:960px;
+}
+
+#primary {
+	width:57%;
+}
+
+body.home #header-widget {
+    width: 66%;
+}
+
+#secondary {
+    width: 37.5%;
+}
+
+/*SURVEY STYLING*/
+
+ul.wpsqt_multiple_question li {
+	list-style:none;
+}
+
+/*****FREQUENTLY ASKED QUESTIONS TOGGLES FAQ*************/
+
+h3.trigger a {
+    color: #333333;
+    display: block;
+    line-height: 27px;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+h3.trigger a:hover {
+	color:#598C13 !important;
+}
+
+h3.trigger:nth-of-type(2n+1), h3.trigger:nth-of-type(2n+1) + div.toggle_container {
+    background-color: #f4f4ef !important; /*a lighter tan color than most of the tables, but better color branding than the light grey*/
+    color: #373737 !important;
+}
+
+
+
+/********************* WELLNESS PAGE ********************/
+
+.bio-box {	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.bio-box .bio-left{	display:block;
+	width:26%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.bio-box .bio-right{
+	display:block;
+	width:74%;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+.entry-content .bio-box .bio-right h3 {
+margin-top: 0px;
+padding-top: 0px;
+}
+
+div.bio-box div.bio-left img.alignnone {	padding:0;
+	margin: 15px 0 0;
+	border: medium none;
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: none;
+}
+
+div.bio-box div.bio-left img.headshot {
+    margin: 15px 0 0 15px;
+    padding: 15px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+	}
+
+div.bio-box div.bio-left p:empty { /*prevents unnessecary whitespace caused by an automatic paragraph to wrap around the first image*/
+	display:none;
+}
+
+div.bio-left a.icon-file-pdf {
+	margin-left:15px;
+}
+
+div.bio-box div.bio-left p {
+	margin-bottom:0;
+}
+
+.bio-box .bio-left .bio-contact-info {
+    clear: both;
+    color: #7F7F7F;
+    display: block;
+    margin: 0 0 15px 8px;/*having a bottom margin here ensures that even if the bio description box is shorter than the left box, the hr doesn't get too close*/
+}
+
+.bio-box .bio-left .bio-contact-info a {
+	color: inherit;
+}
+
+.bio-box .bio-left .bio-contact-info a:hover, div#secondary.widget-area a.icon-calendar:hover, div#secondary.widget-area a.icon-phone:hover, div#secondary.widget-area a.icon-mail:hover, div#secondary.widget-area a.icon-earth:hover, div#secondary.widget-area a.icon-pencil:hover  {
+	color: #598C13;
+	text-decoration:none;
+}
+
+div.bio-box div.bio-right h2 {
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+
+/************TESTIMONIALS*****************/
+.testimonial_rotator_wrap {
+margin: 0px !important;
+padding: 0px !important;
+}
+
+.testimonial_rotator .slide .img img {
+max-width: 100px !important;
+}
+
+.testimonial_rotator .slide .img {
+width: 12% !important;
+margin-right: 3% !important;
+}
+
+.testimonial_rotator_wrap div.text {
+	font-style:italic;
+}
+
+
+/************************************* RESPONSIVE DESIGN  **********************************************/
+
+
+/* Rules to govern all widths up to 1024px */
+
+    @media only screen and (max-width: 1024px) {
+
+body.page-id-443 div#primary div.wp-caption:nth-child(3n+1) { /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 23px 20px 0;
+	}
+	
+body.page-id-443 div#primary div.wp-caption:nth-child(4n+1) { /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 0px 20px 0;
+	}	
+	
+}
+
+/* #Tablet (Landscape)
+
+================================================== */
+
+    /* Note: Design for a width of 1024px */
+
+    @media only screen and (min-width: 960px) and (max-width: 1024px) {
+
+body.home #header-widget {
+    width: 64%;
+}
+
+body.home #header #logo img {
+	width:100%;
+}
+
+#access li {
+    font-size: 12px;
+}
+
+input#s { /*resizes the search bar for smaller sizes*/
+    font-size: 12px;
+    padding: 2px 6px 2px 28px;
+}
+
+
+/*so that the sidebar image fills the space better*/
+div#sidebar-featured-image img.wp-post-image { 
+    width: 100%;
+}
+
+.sidebar-image-round {
+	height: auto;
+    margin: 0;
+    max-height: 278px;
+    padding: 0;
+}
+
+/*footer*/
+
+#supplementary.three .widget-area {
+	margin-right: 1.7%;
+	width:auto;
+	}
+	
+div#supplementary.three div#second.widget-area {
+	width:27%;
+}
+
+div#secondary div.ssw_image_element, div#secondary div.ssw_image_element img { /*so that the homepage slideshow presents in full width, not cropping any7thing unnescessarily*/
+    width: 99% !important;
+}
+
+    }
+
+/* #Tablet (Portrait)
+
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#page {
+	max-width:960px;
+}
+
+#header {
+	width:99%
+}
+
+input#s { /*resizes the search bar for smaller sizes*/
+    font-size: 12px;
+    padding: 0px 6px 0px 28px;
+}
+
+div#navbar #s {
+background-position: 3px center;
+}
+
+div#navbar #s:focus {
+	width:100px; /*how big the field should get after being clicked on*/
+}
+
+/*
+#access {
+    width: 70%;
+}*/
+
+#primary { /*makes it so that the main content area takes up the whole screen, and the sidebar falls below*/
+    padding: 10px 0 20px;
+    width: 100%;
+}
+
+#main #content {
+    margin: 0 2.5%; /*ensures the main content blocks are proportionately padded*/
+    width: 95%;
+	}
+
+#main #secondary {  /*makes it so that the sidebar content area takes up the whole screen and falls below the main area*/
+    float: right;
+    margin: 0;
+    width: 100%;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main { /*so the slideshow is centered*/
+    margin: 0 auto !important;
+}
+
+#header-widget {
+    width: 60%;
+	font-size:12px;
+}
+
+
+#access li {
+    font-size: 11px;
+}
+
+.sidebar-image-round { /*so that the top sidebar image doesn't display, since it's not wide enough to fill the space*/
+	display:none;
+}
+
+/*HOMEPAGE*/
+
+#header-widget div#text-6 {
+    right: 10px;
+}
+
+body.home #header #logo {
+    width: 30%;
+}
+
+body.home #header #logo img {
+    width: 100%;
+	margin-top: 30px; /*so that it appears more vertically centered*/
+}
+
+body.home #header-widget {
+    width: 63%;
+}
+
+div#homepage-intro {
+    font-size: 12px;
+    }
+
+/*footer*/
+
+
+#colophon #supplementary .widget-area {
+    float: left;
+	width: 50%;
+	margin-right:0;
+}
+
+div#supplementary.three div#third.widget-area { /*takes out the recent blog comments so that the address still stays*/
+	display:none;
+}
+
+#site-generator {
+    padding: 20px 15px;
+}
+
+    @media only screen and (min-width: 768px) and (max-width: 860px) {
+		div#homepage-intro {
+    font-size: 11px;
+}
+	}
+
+
+/* #Mobile (Landscape)
+
+================================================== */
+    /* Note: Design for a width of 480px */	
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    }
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+
+
+	}

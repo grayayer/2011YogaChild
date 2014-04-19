@@ -1,0 +1,99 @@
+pre {
+  background: inherit;
+  font: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+.widget_woothemes_testimonials {
+
+  .testimonials {
+    position: relative;
+  }
+  .quote {
+    background: url('images/quote-testimonials.png') no-repeat top left;
+    background-position: 0 1%;
+    margin: 0 0 1.618em;
+    clear: both;
+    display: inline-block;
+
+    .testimonials-text {
+      margin: 0 0 1.2em 2.618em;
+      font-size: .95em;
+      font-family: "Georgia";
+      font-style: italic;
+        word-wrap: break-word;
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        hyphens: none;
+
+    }
+    img {
+      width: 5em;
+      height: 5em;
+      margin: 0 1.2em 1.2em 2.618em;
+      float: left;
+      border: 1px solid #eaeaea;
+      padding: .302em;
+    }   
+    .author {
+      word-wrap: break-word;
+      float: left;
+      display: block;
+      font-style: normal;
+      font-weight: bold;
+      width: 50%;
+      .excerpt {
+        display: block;
+        font-style: italic;
+        font-weight: normal;
+      }
+      .url {
+        font-weight: normal;
+      }
+    }
+  }
+}
+#sidebar, #footer-widgets {
+  .widget_woothemes_testimonials {
+    .quote {
+      margin: 0 0 1.618em;
+    }   
+    .flex-direction-nav {
+      position: absolute;
+      top: -1em; 
+      right: 1.75em; 
+      a {
+        opacity: 1;
+        width: 7px;
+        height: 12px;
+        background-image: url('images/bg_directional_nav_testimonials.png');
+      }
+      .flex-prev {
+        left: 0;
+      }
+      .flex-next {
+        right: -20px;
+      }
+    }
+    /* FlexSlider Necessary Styles */
+    .testimonials {margin: 0; padding: 0;}
+    .testimonials .testimonials-list > .quote {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+    .testimonials .testimonials-list img {max-width: 100%; display: block;}
+
+    /* Clearfix for the .slides element */
+    .testimonials .testimonials-list:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+    html[xmlns] .testimonials .testimonials-list {display: block;} 
+    * html .testimonials .testimonials-list {height: 1%;}
+  }
+  .widget_woo_component {
+    padding-bottom: 0;
+    border: 0;
+    #blog-posts {
+      .item {
+        margin-right: 0;
+        width: 100%;
+      }
+    }
+  }
+}

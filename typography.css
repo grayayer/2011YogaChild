@@ -1,0 +1,117 @@
+/****************typography**********************/
+/* line 3, scss/typography.scss */
+a {
+  color: #75B719;
+  /*a green*/
+}
+
+/* line 7, scss/typography.scss */
+body.page-id-443 #primary article a {
+  color: #666666;
+  /*a grey color for the links on the teacher page for the captions*/
+}
+
+/* line 11, scss/typography.scss */
+div#content h1, div#content h2, div#content h3 {
+  color: #48750A;
+}
+
+/* line 16, scss/typography.scss */
+div#content h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* line 21, scss/typography.scss */
+#supplementary h3 {
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+}
+
+/* line 27, scss/typography.scss */
+div#content h2, #secondary h2 {
+  font-size: 18px;
+}
+
+/* line 31, scss/typography.scss */
+#secondary h1, #secondary h2, #secondary h3, #secondary h4 {
+  text-align: center;
+}
+
+/* line 35, scss/typography.scss */
+#secondary a {
+  color: #48750A;
+}
+
+/* line 39, scss/typography.scss */
+#secondary a.actionbutton {
+  color: #FFF;
+}
+
+/* line 43, scss/typography.scss */
+#secondary .widget-title {
+  color: #666666;
+  line-height: 1.4em;
+  margin-bottom: 16px;
+}
+
+/* line 49, scss/typography.scss */
+.entry-content h3, .comment-content h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+/* line 56, scss/typography.scss */
+a:hover {
+  color: #598C13;
+}
+
+/* line 60, scss/typography.scss */
+.alignleft {
+  margin-right: 20px;
+}
+
+/* line 64, scss/typography.scss */
+.entry-title {
+  color: #222;
+}
+
+/* line 69, scss/typography.scss */
+.entry-title,
+.entry-title a {
+  color: #222;
+  text-decoration: none;
+  -moz-transition: color 0.2s linear 0s;
+}
+
+/* line 76, scss/typography.scss */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+  color: #1982d1;
+}
+
+/* line 80, scss/typography.scss */
+p.none {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 85, scss/typography.scss */
+a.clickhere {
+  padding-left: 20px;
+  background: url(images/right-arrow16px.png) no-repeat;
+  min-height: 16px;
+}
+
+/* line 91, scss/typography.scss */
+hr {
+  background-color: #CCC;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.625em;
+  clear: both;
+}

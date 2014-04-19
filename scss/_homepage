@@ -1,0 +1,336 @@
+
+/*************************************** HOMEPAGE *****************************************************/
+
+/* OUTDATED INFO
+body.home #header #logo {
+	display:inline-block;
+	height:215px;
+	margin-left:20px;
+	float:left;
+	overflow:hidden;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+body.home #header #logo img {
+	width:100%;
+}
+
+body.home #header-widget {
+    display: inline-block;
+    float: right;
+    margin: 7px 4px 0 0;
+	width: 650px;
+	height:200px;
+}
+
+
+#header-widget div#text-6{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -23px;
+}
+
+div#homepage-intro {
+    line-height: 1.7em;
+    margin-right: 33px;
+	font-size: 0.9em;
+}
+
+body.home div#content div.announcement {
+	overflow:hidden;
+	position:static;
+}
+*/
+
+div.announce-title {
+	clear:inherit;
+}
+
+div.announce-top {
+	display:block;
+	height:auto;
+}
+
+div#homepage-intro .video-link {
+	top: 10px;
+	position: relative;
+	text-align:center;
+	text-transform: uppercase;
+	}
+
+div#homepage-intro a.lbpModal.video-link img {
+	display:inline-block;
+}
+
+.icon-film:before {
+    font-size: 1.3em;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+/*homepage images*/
+
+body.home div#content div.announcement div.announcement-thumb { /*defines how the announcment thumbnail should look. The surrounding div is necessary to crop the border's correctly for safari browsers*/
+	float:left;
+	margin:0 10px 10px 0;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 4px;
+	overflow:hidden;
+	position:static;
+	width:100px;
+	height:100px;
+}
+
+div.announcement-thumb a img.attachment-thumbnail { /*defines how the announcment thumbnail should look*/
+	border-radius:6px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:6px;
+	width:100px;
+	height:100px;
+}
+
+div#cboxContent div#cboxTitle {
+	display:none !important;
+}
+
+
+
+body.home div#content img.attachment-thumbnail:hover {
+	background: #eee;
+	border-color: #bbb;
+}
+
+body.home div#content div.announcement h2.announcement {
+	clear:none;
+	font-size:22px;
+	font-weight:bold;
+	color:#333;
+}
+
+div.announcement {
+    background: none repeat scroll 0 0 #F7F4E3;
+    padding: 20px;
+	box-shadow: 0 0 2px #554B1D;
+	margin-top: 20px;
+	@include border-radius(10px);
+	border:2px solid white;
+	font-size: 0.8em
+	}
+
+
+div.announcement:first-of-type {
+	margin-top: 0px;
+}
+
+body.home div.entry-content {
+	clear:left;
+	padding: 0;
+}
+
+body.home div.entry-content p:last-of-type {
+	margin-bottom:0;
+}
+
+div#secondary div.ngg_images {
+	padding:0;
+	margin:0;
+}
+
+div#secondary div.ngg_images img {
+border-radius: 20px
+}
+
+/*homepage typography*/
+div#content div.announcement div.announce-title h3{
+	clear:none;
+	color:#54503F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div#content div.announcement h3:empty {
+	display:none;
+}
+
+a.actionbutton:empty {
+	display:none;
+}
+
+a.actionbutton {
+	border:#D3E4B8 1px solid;
+	color: #FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+	@include border-radius(4px);
+	padding:5px;
+	margin:0;
+    position: relative;
+    top: 11px;
+	letter-spacing: 1px;
+	text-shadow: -1px -1px 0 #86B70B;
+	
+background: rgb(191,210,85); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}	
+
+a.actionbutton:hover {
+background: rgb(191,210,85); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,210,85,0.8)), color-stop(50%,rgba(142,185,42,0.8)), color-stop(51%,rgba(114,170,0,0.8)), color-stop(100%,rgba(158,203,45,0.8))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccbfd255', endColorstr='#cc9ecb2d',GradientType=0 ); /* IE6-9 */
+text-decoration:none;
+}
+
+a.actionbutton:active {
+background: rgb(158,203,45); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(158,203,45,1) 0%, rgba(114,170,0,1) 47%, rgba(142,185,42,1) 50%, rgba(191,210,85,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(158,203,45,1)), color-stop(47%,rgba(114,170,0,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(100%,rgba(191,210,85,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(158,203,45,1) 0%,rgba(114,170,0,1) 47%,rgba(142,185,42,1) 50%,rgba(191,210,85,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ecb2d', endColorstr='#bfd255',GradientType=0 ); /* IE6-9 */
+}
+
+#secondary a.actionbutton {
+	text-align:center; /*doesn't seem to work*/
+}
+
+/*homepage slideshow - mostly isn't useful as of 2-22-2012
+div#secondary div#slideshow-2 {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+}
+
+div#secondary div#slideshow-2 h2, div#secondary div.ngg_images h2{
+	display:none;
+}
+
+div#secondary div#slideshow-2 .widget, div#secondary div.ngg_images img{
+	margin:0;
+	padding:0;
+	border: 2px solid white;
+
+}
+
+*/
+/*
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget { /*the actual container for the images*/ /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow img{ /* this rounds the corners of the images*/ /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.entry-content img, .comment-content img, .widget img {
+	max-width:100%;
+	margin:0 15px 5px 0;
+	padding:5px;
+}
+
+.widget img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+/*homepage non-nextgen slideshow*/
+div#secondary div#smartslideshowwidget-2 {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+div#secondary div#smartslideshowwidget-2 img {
+    margin: 0;
+    padding: 0;
+}
+
+
+div#secondary div#smartslideshowwidget-2 h2{
+	display:none;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main {
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+div#secondary div.ssw_image_element{
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+div#secondary div.ssw_image_element img{
+	margin:0;
+	padding:0;
+	border: 2px solid white;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width:352px;
+	height:232px;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget { /*the actual container for the images*/
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow img{ /* this rounds the corners of the images*/
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.entry-content img, .comment-content img, .widget img {
+	max-width:100%;
+	margin:0 15px 5px 0;
+	padding:5px;
+}
+
+.widget img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+

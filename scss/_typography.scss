@@ -1,0 +1,135 @@
+
+/****************typography**********************/
+a {
+    color: #75B719; /*a green*/
+}
+
+body.page-id-443 #primary article a {
+    color: #666666; /*a grey color for the links on the teacher page for the captions*/
+}
+
+div#content h1, div#content h2, div#content h3 {
+	color:#48750A;
+}
+
+
+div#content h1 {
+	font-size:2em;
+	margin-bottom:5px;
+}
+
+#supplementary h3 {
+	font-weight:bold;
+	letter-spacing: 0.2em;
+	font-size: 12px;
+}
+
+div#content h2, #secondary h2 {
+	font-size:18px;
+}
+
+#secondary h2 {
+	font-weight: bold;
+	}
+
+#secondary h1, #secondary h2, #secondary h3, #secondary h4 {
+    text-align: center;
+}
+
+#secondary a {
+	color:#48750A;
+}
+
+#secondary a.actionbutton {
+    color: #FFF;
+}
+
+#secondary .widget-title {
+    color: #666666;
+    line-height: 1.4em;
+    margin-bottom: 16px;
+}
+
+.entry-content h3, .comment-content h3 {
+    font-size: 13px;
+	font-weight:bold;
+	margin-top:10px;
+	padding-top: 15px;
+}
+
+a:hover {
+	color:#598C13;
+}
+
+.alignleft {
+	margin-right:20px;
+}
+
+.entry-title {
+	color: #222;
+}
+
+.entry-title,
+.entry-title a {
+	color: #222;
+	text-decoration: none;
+	-moz-transition: color 0.2s linear 0s;
+}
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #1982d1;
+}
+
+p.none {
+	margin:0;
+	padding:0;
+}
+
+a.clickhere {
+	padding-left:20px;
+	background:url(images/right-arrow16px.png) no-repeat;
+	min-height:16px;
+}
+
+hr {
+background-color: #CCC;
+border: 0;
+height: 1px;
+margin-bottom: 1.625em;
+clear: both;
+}
+
+/*****icons for hot flow yoga schedule **********/
+
+span.hot_flow:before,  {
+	font-family: 'icomoon', arial, sans-serif;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	padding-right: 7px;
+	margin-left: -20px;
+	content: "\e03c";
+	color: #FF8607; /*an orange red*/
+}
+
+span.yoga_basics_free_class:before,
+span.group_meditation_donation_class:before {
+	@extend span.hot_flow:before;
+	content: "\e013"; //full heart
+	color: $free-color;
+	position: relative;
+	top: 1px;
+}
+
+span.vinyasa_basics_5_00_or_class_package:before,
+span.gentle_yoga_for_everyone_5_00_drop_in:before,
+span.vinyasa_1_5_00_or_class_package:before   {
+	@extend span.hot_flow:before;
+	@extend span.yoga_basics_free_class:before;
+	content: "\e014"; //half heart
+}

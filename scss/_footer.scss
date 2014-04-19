@@ -1,0 +1,132 @@
+
+/*footer*/
+
+footer#colophon {
+	/*border:5px #554B1D solid;*/
+	background: none;
+	margin-top:20px;
+	display:inline-block;
+	width:100%;
+}
+
+#supplementary {
+    border-top: none;
+    padding: 10px 20px 0px;
+	position:relative;
+	bottom: -17px;
+}
+
+#site-generator {
+	color:#FFF;
+	background-color:#554B1D;
+	background:url(images/light-tan-wood-bg.png) repeat #554B1D;
+	-webkit-border-TOP-right-radius: 10px;
+	-webkit-border-TOP-left-radius: 10px;
+	-moz-border-radius-TOP-right: 10px;
+	-moz-border-radius-top-left: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	line-height:inherit;
+	padding:20px 15px 5px;
+	box-shadow: 0 1px 5px #3A3314 inset;
+	-moz-box-shadow: 0 1px 5px #3A3314 inset;
+	-webkit-box-shadow: 0 1px 5px #3A3314 inset;
+}
+
+#site-generator a {
+	color:#FFF;
+}
+
+#site-generator .copyright  { float: left; margin: 0; }
+
+#site-generator .credit  { float: right; margin: 0; }
+
+/*controls the border-radius of the main content areas */
+#primary, #secondary, div#secondary .widget, div#sidebar-wyswig-content, div#sidebar-featured-image{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	Xoverflow:hidden;
+	Xposition:static;
+}
+
+footer aside.widget {
+	margin:0;
+}
+
+div.textwidget img.map {
+	padding:0;
+	margin:-7px 0 0 -7px;
+}
+
+div.textwidget p {
+	margin:0;
+	padding:0;
+}
+
+aside#recent-comments-2 {
+	background:url(images/comments-bg.png) no-repeat;
+	height:266px;
+	width:293px;
+}
+
+aside.widget ul#recentcomments {
+	padding:5px 17px;
+	margin-left: 10px;
+	} 
+
+
+// twitter stuff
+
+aside#twitter_timeline-2, aside#twitter-2, .twtr-widget {
+	background:url(images/twitter-bg-2013.png) no-repeat;
+	height:239px;
+	width:293px;
+
+	.twtr-doc {
+		padding: 0 10px;
+		width: 271px !important;
+		p {
+    		line-height: 1.5 !important;
+    	}
+	}
+}
+
+
+
+#twtr-widget-1 .twtr-tweet-text {
+    margin: 10px 10px 0;
+}
+
+//this is for the official jetpack twitter timeline
+#twitter-widget-0 {
+	border: none;
+	max-width: 267px;
+//	height: 130px;
+	padding-left: 13px;
+}
+
+ul.tweets {
+	margin-left:0;
+	padding:5px 17px;
+	height: 135px;
+    overflow: hidden
+	}
+
+.widget_twitter .timesince {
+    margin-right:0px;
+}
+
+div.textwidget p.footer-contact-info {
+	margin-top:-5px;
+}
+
+div.textwidget p.footer-contact-info a{
+	color:#598C13;
+}
+
+// New Twitter Timeline Rules
+
+.twtr-user, .twtr-hd, .twtr-ft {
+	display: none;
+}
