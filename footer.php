@@ -23,8 +23,17 @@
 			?>
 
 			<div id="site-generator">
+
+			<?php
+			   if (is_user_logged_in()) {
+			      $user = wp_get_current_user();
+			      echo 'Welcome back <strong>'.$user->display_name.'</strong> | <a href="http://yogaunioncwc.com/wp-login.php?action=logout&_wpnonce=34a8f98cca">Log Out</a>';
+			   } else { ?><a href="http://wordpress.org/">Proudly powered by Wordpress</a> | 
+			      <strong><?php wp_loginout(); ?></strong>
+			<?php } ?>
+
                 
-            <p class="copyright"><?php _e('Copyright',woothemes); ?> &copy; <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('title'); ?>"><?php bloginfo('title'); ?></a> <?php echo date('Y'); ?>. <?php _e('All Rights Reserved.',woothemes); ?></p>
+        <p class="copyright"><?php _e('Copyright',woothemes); ?> &copy; <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('title'); ?>"><?php bloginfo('title'); ?></a> <?php echo date('Y'); ?>. <?php _e('All Rights Reserved.',woothemes); ?></p>
 		
 		<p class="credit">Web Design & Development by <a href="http://www.studiok40.com" target="_blank">Gray Ayer</a>	
         </p>
