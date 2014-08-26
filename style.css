@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 
 Theme Name:     Twenty Eleven Child -Yoga Union 
 Theme URI:      http: //example.com/ 
@@ -5,7 +6,2788 @@ Description:    Child theme for the Twenty Eleven theme
 Author:         Gray Ayer
 Author URI:     http: //your-site.com/ 
 Template:       twentyeleven 
-Version:        1.2.25.2014 
+Version:        1.8.26.2014 
 */
+@import url(../twentyeleven/style.css);
+/*********
 
-@charset "UTF-8";@import url(../twentyeleven/style.css);body{padding:0 !important;margin:0;background-image:url("images/light-wood-paneling-bg.jpg");background-repeat:repeat;background-position:top left;background-attachment:fixed}body #page{margin-top:15px;margin-bottom:0px;margin-left:auto;margin-right:auto}.widget ul{margin-left:20px;list-style:disc}div.entry-content img.attachment-thumbnail{float:left;margin:0 10px 10px 0;border-radius:10px;background:none repeat scroll 0 0 #FFFFFF;border:1px solid #DDDDDD;padding:4px}div.entry-content img.attachment-thumbnail:hover{background:#eee;border-color:#bbb}#page{background:none;margin:10px auto;max-width:66.7em}.entry-content,.entry-summary{padding:0}.wp-caption{background:#F7F4E3;box-shadow:0 0 2px #998A51;margin-bottom:1em;max-width:96%;padding:5px}.wp-caption .wp-caption-text,.gallery-caption{color:#666;font-family:Georgia, serif;font-size:12px}.wp-caption .wp-caption-text{margin-bottom:0.2em;padding:0;text-align:center;position:relative}.wp-caption .wp-caption-text:before{color:#666;content:normal;font-size:14px;font-style:normal;font-weight:bold;margin-right:0;position:absolute;left:0;top:0}.ssw_left_arrow{margin-left:2px}h2.gallerytitle,h3.albumlink{margin:0;padding:0}h3.albumlink{text-transform:none;font-size:.9em;font-weight:normal}#branding{position:relative;border-top:medium none;padding-bottom:0;z-index:0}#header{border:1px #b9b9b9 solid;min-height:180px;background:url(images/headers/banner_studio.jpg) no-repeat #fff;display:block;width:99%;margin-bottom:15px;width:958px;height:220px;box-shadow:inset 0 0 5px rgba(0,0,0,0.75);border-radius:25px;z-index:0}.socialmedia-buttons{display:block;height:38px;position:absolute;top:10px;right:15px;z-index:2}.socialmedia-buttons a{float:right;color:white;float:right;font-size:1.6em;padding:0 4px;text-shadow:1px 1px 1px rgba(0,0,0,0.75);-webkit-transition:color 0.15s ease-in 0s;-moz-transition:color 0.15s ease-in 0s;-ms-transition:color 0.15s ease-in 0s;-o-transition:color 0.15s ease-in 0s;transition:color 0.15s ease-in 0s}.socialmedia-buttons a:hover{text-decoration:none;color:#aece83}.socialmedia-buttons img.fade{margin-right:0px !important}#main{padding:0;margin:0px auto}#primary{width:38em;margin:0 0 20px 0;padding:20px;background:#FFF;box-shadow:0 0 2px #554B1D inset;-webkit-box-shadow:0 0 2px #554B1D inset;-moz-box-shadow:0 0 2px #554B1D inset}div#primary p{font-size:14px;line-height:23px}#primary article{padding:0 20px 15px 20px}.singular #content,.left-sidebar.singular #content{margin:0 auto}#secondary{width:30em;margin:0;padding:0}div#secondary .widget,div#sidebar-wyswig-content,div#sidebar-featured-image{background:none repeat scroll 0 0 #D3E4B8;margin:20px auto;border:#AECE83 2px solid;padding:20px;overflow:hidden}div#secondary .widget,div#sidebar-featured-image,div#sidebar-featured-image div#wyswig-content{-webkit-box-shadow:0px 0px 11px rgba(174,206,131,0.5) inset;-moz-box-shadow:0px 0px 11px rgba(174,206,131,0.5) inset;box-shadow:0px 0px 11px rgba(174,206,131,0.5) inset}div#sidebar-featured-image{margin:0 auto 20px auto;padding:0;background-color:#FFF}div#sidebar-featured-image:empty{display:none}div.sidebar-image-round:empty{display:none}.sidebar-image-round{-webkit-border-radius:19px 19px 0 0;-moz-border-radius:19px 19px 0 0;border-radius:19px 19px 0 0;border:2px solid #FFFFFF;height:auto;margin:0;padding:0;max-height:291px}div#sidebar-featured-image img.wp-post-image{margin:0 auto;-webkit-border-radius:16px 16px 0 0;-moz-border-radius:16px 16px 0 0;border-radius:16px 16px 0 0;margin:0 auto;width:352px}div#sidebar-featured-image div#wyswig-content{background:none repeat scroll 0 0 #D3E4B8;padding:10px 15px;-webkit-border-radius:0 0 19px 19px;-moz-border-radius:0 0 19px 19px;border-radius:0 0 19px 19px;border-top:2px solid #aece83}div#sidebar-featured-image div#wyswig-content:empty{display:none}div#wyswig-content h1,div#wyswig-content h2,div#wyswig-content h3,div#wyswig-content h4{padding-top:10px}div#sidebar-featured-image div.featured-image-caption{font-size:16px;margin:0 auto;padding:10px 10px 5px;text-align:center}.sidebar-featured-image-p{overflow:hidden;Xborder-radius:0 0 20px 20px;X-webkit-border-radius:0 0 20px 20px;margin:0;padding:0;background:#FFF}div.featured-image-caption:empty{display:none}div#sidebar-featured-image p:empty{display:none}#content{margin:0;width:100%}body.page-id-443 div#primary div.wp-caption{background:#f7f4e3 url(images/tan-noise.png) repeat;box-shadow:0 0 2px #998A51;margin:0 23px 20px 0;max-width:96%;padding:5px;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;width:142px !important}body.page-id-443 div#primary div.wp-caption:nth-child(3n+1){margin-right:0}body.page-id-443 div#primary div.wp-caption .wp-caption-text{font:300 15px/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif}body.page-id-443 div#primary div.wp-caption:hover,body.page-id-443 div#primary div.wp-caption:active{background:rgba(247,244,227,0.5)}body.page-id-443 div#primary div.wp-caption a img{background:none;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;padding:0;max-width:140px;border:.5px #E4E0D1 solid}body.page-id-443 div#primary div.wp-caption:hover a img:hover{opacity:.8}body.page-template-no-sidebar-page-php #primary{width:920px}div#wyswig-content div.sharing{display:none}img#wpstats{display:NONE;margin:0}div#secondary.widget-area div#sidebar-featured-image div#wyswig-content div.sharedaddy{display:none}a#hellobar-logo{display:none !important}table.foobar-container{background:url(http://yogaunioncwc.com/wp-content/themes/2011YogaChild/images/green-noise.png) repeat}.center{display:table;margin-left:auto;margin-right:auto}#page{max-width:960px}#primary{width:57%}body.home #header-widget{width:66%}#secondary{width:37.5%}ul.wpsqt_multiple_question li{list-style:none}h3.trigger a{color:#333333;display:block;line-height:27px;margin-left:30px;text-decoration:none;text-transform:none}h3.trigger a:hover{color:#598C13 !important}h3.trigger:nth-of-type(2n+1),h3.trigger:nth-of-type(2n+1)+div.toggle_container{background-color:#f4f4ef !important;color:#373737 !important}a{color:#75B719}body.page-id-443 #primary article a{color:#666666}div#content h1,div#content h2,div#content h3{color:#48750A}div#content h1{font-size:2em;margin-bottom:5px}#supplementary h3{font-weight:bold;letter-spacing:0.2em;font-size:12px}div#content h2,#secondary h2{font-size:18px}#secondary h2{font-weight:bold}#secondary h1,#secondary h2,#secondary h3,#secondary h4{text-align:center}#secondary a{color:#48750A}#secondary a.actionbutton{color:#FFF}#secondary .widget-title{color:#666666;line-height:1.4em;margin-bottom:16px}.entry-content h3,.comment-content h3{font-size:13px;font-weight:bold;margin-top:10px;padding-top:15px}a:hover{color:#598C13}.alignleft{margin-right:20px}.entry-title{color:#222}.entry-title,.entry-title a{color:#222;text-decoration:none;-moz-transition:color 0.2s linear 0s}.entry-title a:hover,.entry-title a:focus,.entry-title a:active{color:#1982d1}p.none{margin:0;padding:0}a.clickhere{padding-left:20px;background:url(images/right-arrow16px.png) no-repeat;min-height:16px}hr{background-color:#CCC;border:0;height:1px;margin-bottom:1.625em;clear:both}span.hot_flow:before,span.yoga_basics_free_class:before,span.vinyasa_basics_5_00_or_class_package:before,span.gentle_yoga_for_everyone_5_00_drop_in:before,span.vinyasa_1_5_00_or_class_package:before,span.group_meditation_donation_class:before{font-family:'icomoon', arial, sans-serif;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;padding-right:7px;margin-left:-20px;content:"\e03c";color:#FF8607}span.yoga_basics_free_class:before,span.vinyasa_basics_5_00_or_class_package:before,span.gentle_yoga_for_everyone_5_00_drop_in:before,span.vinyasa_1_5_00_or_class_package:before,span.group_meditation_donation_class:before{content:"\e013";color:#ff3307;position:relative;top:1px}span.vinyasa_basics_5_00_or_class_package:before,span.gentle_yoga_for_everyone_5_00_drop_in:before,span.vinyasa_1_5_00_or_class_package:before{content:"\e014"}#access{margin:0 auto 15px;width:100%;background:#f7f4e3 url(images/tan-noise.png) repeat;border-radius:12px;border:1px #b9b9b9 solid;box-shadow:inset 0 0 1px white}#access div{margin:0}#access ul{margin:0}#access ul ul{border-top:0px solid #554B1D;top:42px}#access a{background:transparent;color:#483d3b;text-transform:uppercase}#access li:hover>a,#access a:focus{background:#f9f9f9;-moz-transition:background 0.2s linear 0s;-webkit-transition:background 0.2s linear 0s;transition:background 0.2s linear 0s}#access ul li#menu-item-623>a:hover{-webkit-border-radius:15px 0px 0px 15px;border-radius:15px 0px 0px 15px}#access ul li ul li a:hover{background:#FFF;-moz-transition:background 0.2s linear 0s;-webkit-transition:background 0.2s linear 0s;transition:font-weight background 0.2s linear 0s;font-weight:bold}input#s{height:24px}div#navbar #searchform{position:relative;right:5px;top:5px;text-align:right}div#navbar #searchform div{margin:0}div#navbar #s{float:right;-webkit-transition-duration:400ms;-webkit-transition-property:width, background;-webkit-transition-timing-function:ease;-moz-transition-duration:400ms;-moz-transition-property:width, background;-moz-transition-timing-function:ease;-o-transition-duration:400ms;-o-transition-property:width, background;-o-transition-timing-function:ease;width:85px;-webkit-border-radius:0px 10px 10px 0px;border-radius:0px 10px 10px 0px;background-color:#FFFDF5}div#navbar #s:focus{background-color:#f9f9f9;width:150px}div#navbar #searchsubmit{display:none}div#navbar .only-search #searchform{top:5px;z-index:1}div#navbar .only-search #s{background-color:#E4E1D0;border-color:#000;color:#222}div#navbar .only-search #s,div#navbar .only-search #s:focus{width:85%}div#navbar .only-search #s:focus{background-color:#FFF}div#navbar .with-image #searchform{top:auto;bottom:-27px;max-width:150px}div#navbar .only-search+#access div{padding-right:205px}body.single-post a.featured img.attachment-medium.wp-post-image{border:1px solid #bbb;float:left}body.single-post div#content h1.entry-title{padding-bottom:15px}body.single-post div#content h2:first-of-type{clear:none}.blog .hentry,.blog .no-results{margin:0}.blog #primary article{padding:20px 20px 15px 20px}.blog .entry-meta{padding-bottom:15px}div#secondary.blog .widget:first-of-type{margin-top:0px}div#content h1.entry-title{clear:both;color:#222222;font-size:26px;font-weight:bold;line-height:1.1em;margin:0;padding:0px 0 5px;margin-bottom:0px;max-width:468px}.single-post .entry-header .entry-meta{padding-right:0}.single-post .entry-header .entry-meta{position:absolute;top:0;left:0}.single-post .entry-content,.entry-summary{padding:0}.hentry,.no-results{margin:0 0 0.5em}.entry-header .comments-link a{top:1em}div#comments{padding:0 20px}.commentlist{width:367px}ol.commentlist li.comment{width:415px}#author-info{margin:15px 0}.commentlist .children li.comment{max-width:375px;border:1px solid #DDDDDD}.commentlist .children .children li.comment{max-width:325px}div.announce-title{clear:inherit}div.announce-top{display:block;height:auto}.announce-left{float:left}.announce-right{float:left;width:67%}div#homepage-intro .video-link{top:10px;position:relative;text-align:center;text-transform:uppercase}div#homepage-intro a.lbpModal.video-link img{display:inline-block}.icon-film:before{font-size:1.3em;padding-right:5px;position:relative;top:2px}div.announcement{border-bottom:1px solid #CCCCCC;border-top:1px solid #F2F2F2;margin:0;padding:20px 0;clear:both;min-height:200px;font-size:0.8em}div.announcement:first-of-type{margin-top:0px;border-top:1px solid #CCCCCC;padding-top:20px}div.announcement p:last-of-type{margin-bottom:0;padding-bottom:0}body.home div#content div.announcement div.announcement-thumb{float:left;margin:0 20px 0 0;background:none repeat scroll 0 0 #FFFFFF;border:1px solid #DDDDDD;padding:4px;overflow:hidden;position:static;width:150px;height:194px}div#cboxContent div#cboxTitle{display:none !important}body.home div#content img.attachment-thumbnail:hover{background:#eee;border-color:#bbb}body.home div#content div.announcement h2.announcement{clear:none;font-size:22px;font-weight:bold;color:#333}body.home div.entry-content{clear:none;padding:0}body.home div.entry-content p:last-of-type{margin-bottom:0}div#secondary div.ngg_images{padding:0;margin:0}div#secondary div.ngg_images img{border-radius:20px}div#content div.announcement h3{clear:none;color:#54503F;font-size:18px;font-weight:bold}div#content div.announcement h3:empty{display:none}a.actionbutton:empty{display:none}a.actionbutton{border:#D3E4B8 1px solid;color:#FFFFFF;font-weight:bold;text-decoration:none;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;padding:5px;margin:0;position:relative;line-height:47px;letter-spacing:1px;text-shadow:-1px -1px 0 #86B70B;background:#bfd255;background:-moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #bfd255), color-stop(50%, #8eb92a), color-stop(51%, #72aa00), color-stop(100%, #9ecb2d));background:-webkit-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);background:-o-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);background:-ms-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);background:linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 )}a.actionbutton:hover{background:#bfd255;background:-moz-linear-gradient(top, rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(191,210,85,0.8)), color-stop(50%, rgba(142,185,42,0.8)), color-stop(51%, rgba(114,170,0,0.8)), color-stop(100%, rgba(158,203,45,0.8)));background:-webkit-linear-gradient(top, rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%);background:-o-linear-gradient(top, rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%);background:-ms-linear-gradient(top, rgba(191,210,85,0.8) 0%, rgba(142,185,42,0.8) 50%, rgba(114,170,0,0.8) 51%, rgba(158,203,45,0.8) 100%);background:linear-gradient(top, rgba(191,210,85,0.8) 0%,rgba(142,185,42,0.8) 50%,rgba(114,170,0,0.8) 51%,rgba(158,203,45,0.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccbfd255', endColorstr='#cc9ecb2d',GradientType=0 );text-decoration:none}a.actionbutton:active{background:#9ecb2d;background:-moz-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #9ecb2d), color-stop(47%, #72aa00), color-stop(50%, #8eb92a), color-stop(100%, #bfd255));background:-webkit-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);background:-o-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);background:-ms-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);background:linear-gradient(top, #9ecb2d 0%,#72aa00 47%,#8eb92a 50%,#bfd255 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ecb2d', endColorstr='#bfd255',GradientType=0 )}#secondary a.actionbutton{text-align:center}div#secondary div#smartslideshowwidget-2{margin:0;overflow:hidden;padding:0;position:relative}div#secondary div#smartslideshowwidget-2 img{margin:0;padding:0}div#secondary div#smartslideshowwidget-2 h2{display:none}div#secondary div#smartslideshowwidget-2 div.ssw_main{margin:0;padding:0;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}div#secondary div.ssw_image_element{margin:0;padding:0;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}div#secondary div.ssw_image_element img{margin:0;padding:0;border:2px solid white;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;width:352px;height:232px}div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow,div#secondary div.ngg_images div.ngg-widget{margin:0;padding:0;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow img{margin:0;padding:0;-webkit-border-radius:17px;-moz-border-radius:17px;border-radius:17px}.entry-content img,.comment-content img,.widget img{max-width:100%;margin:0 15px 5px 0;padding:5px}.widget img.aligncenter{margin-left:auto;margin-right:auto}.wp-table-reloaded{border-collapse:separate;border-spacing:1px;background-color:#CDCDCD;margin:10px 0px 15px 0px;font-size:8pt;width:100%;text-align:left}th{background-color:#E6EEEE;border:1px solid #FFFFFF;padding:4px;color:#3d3d3d !important}td{color:#3D3D3D;padding:4px;background-color:#FFFFFF;vertical-align:top}.even td{background-color:#FFFFFF}.odd td{background-color:#F0F0F6}.row-hover tr:hover td{background-color:#d0d0d6 !important}.wp-table-reloaded-table-description{clear:both;display:block}table th{font-size:1.2em;font-weight:bold;background-color:#554B1D;color:white !important}table .odd td{background-color:#E6E4D7}table{border-collapse:separate;border-spacing:1px;background-color:#CDCDCD;margin:10px 0px 15px 0px;font-size:8pt;width:100%;text-align:left}.column-1{width:70%}.column-2{padding-right:3%;width:16%}.bio-box{display:block;width:100%;margin:0;padding:0}.bio-box .bio-left{display:block;width:26%;float:left;margin:0;padding:0}.bio-box .bio-right{display:block;width:74%;float:right;margin:0;padding:0}.entry-content .bio-box .bio-right h3{margin-top:0px;padding-top:0px}div.bio-box div.bio-left img.alignnone{padding:0;margin:15px 0 0;border:medium none;background:none repeat scroll 0 0 transparent;box-shadow:none}div.bio-box div.bio-left img.headshot{margin:15px 0 0 15px;padding:15px;background:none repeat scroll 0 0 rgba(255,255,255,0.6)}div.bio-box div.bio-left p:empty{display:none}div.bio-left a.icon-file-pdf{margin-left:15px}div.bio-box div.bio-left p{margin-bottom:0}.bio-box .bio-left .bio-contact-info{clear:both;color:#7F7F7F;display:block;margin:0 0 15px 8px}.bio-box .bio-left .bio-contact-info a{color:inherit}.bio-box .bio-left .bio-contact-info a:hover,div#secondary.widget-area a.icon-calendar:hover,div#secondary.widget-area a.icon-phone:hover,div#secondary.widget-area a.icon-mail:hover,div#secondary.widget-area a.icon-earth:hover,div#secondary.widget-area a.icon-pencil:hover{color:#598C13;text-decoration:none}div.bio-box div.bio-right h2{padding-bottom:0;margin-bottom:0}.testimonial_rotator_wrap{margin:0px !important;padding:0px !important}.testimonial_rotator .slide .img img{max-width:100px !important}.testimonial_rotator .slide .img{width:12% !important;margin-right:3% !important}.testimonial_rotator_wrap div.text{font-style:italic}footer#colophon{background:none;margin-top:20px;display:inline-block;width:100%}#supplementary{border-top:none;padding:10px 20px 0px;position:relative;bottom:-17px}#site-generator{color:#FFF;background-color:#554B1D;background:url(images/light-tan-wood-bg.png) repeat #554b1d;-webkit-border-TOP-right-radius:10px;-webkit-border-TOP-left-radius:10px;-moz-border-radius-TOP-right:10px;-moz-border-radius-top-left:10px;border-top-right-radius:10px;border-top-left-radius:10px;line-height:inherit;padding:20px 15px 5px;box-shadow:0 1px 5px #3A3314 inset;-moz-box-shadow:0 1px 5px #3A3314 inset;-webkit-box-shadow:0 1px 5px #3A3314 inset}#site-generator a{color:#FFF}#site-generator .copyright{float:left;margin:0}#site-generator .credit{float:right;margin:0}#primary,#secondary,div#secondary .widget,div#sidebar-wyswig-content,div#sidebar-featured-image{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;Xoverflow:hidden;Xposition:static}footer aside.widget{margin:0}div.textwidget img.map{padding:0;margin:-7px 0 0 -7px}div.textwidget p{margin:0;padding:0}aside#recent-comments-2{background:url(images/comments-bg.png) no-repeat;height:266px;width:293px}aside.widget ul#recentcomments{padding:5px 17px;margin-left:10px}aside#twitter_timeline-2,aside#twitter-2,.twtr-widget{background:url(images/twitter-bg-2013.png) no-repeat;height:239px;width:293px}aside#twitter_timeline-2 .twtr-doc,aside#twitter-2 .twtr-doc,.twtr-widget .twtr-doc{padding:0 10px;width:271px !important}aside#twitter_timeline-2 .twtr-doc p,aside#twitter-2 .twtr-doc p,.twtr-widget .twtr-doc p{line-height:1.5 !important}#twtr-widget-1 .twtr-tweet-text{margin:10px 10px 0}#twitter-widget-0{border:none;max-width:267px;padding-left:13px}ul.tweets{margin-left:0;padding:5px 17px;height:135px;overflow:hidden}.widget_twitter .timesince{margin-right:0px}div.textwidget p.footer-contact-info{margin-top:-5px}div.textwidget p.footer-contact-info a{color:#598C13}.twtr-user,.twtr-hd,.twtr-ft{display:none}div.healcode .header .date_links{font-size:1.2em}.print_version{display:none}div.healcode .header{background-color:#FFFFFF !important}div.healcode{color:#373737 !important}div.healcode .classname a{color:#373737 !important}div.healcode a{color:#75B719 !important}div.healcode table.schedule tr th{background-color:#554B1D !important}div.healcode table.schedule tr.odd td{background-color:#FFFFFF !important}div.healcode table.schedule tr th{color:#FFFFFF !important}div.healcode table.schedule tr.even td{background-color:#E6E4D7 !important}div.healcode h1{color:#48750A !important}div.healcode table.schedule tr th.trainer{width:130px}div.healcode table.schedule tr th.mbo_class{width:180px}span.class_offered_link a:after{content:'»';font-size:1.3em;padding-left:5px}div.class_description{padding-bottom:10px}div.healcode .class_list .class_show{padding-bottom:1em}body.home div.healcode h1,body.home div.healcode div.header{display:none}body.home div.healcode{font-size:.9em;margin:6px auto}body.home div.healcode input.signup_now{font-size:11px}body.home div.healcode table.schedule tr th.mbo_class{width:75px}body.home div.healcode table.schedule tr th.trainer{width:75px}div#content div.schedule h1{font-size:1.8em}div.class_visit_type,div.class_group,div.entry-content div.healcode .header .filters,span.day_links{display:none}div.healcode .hc_tiny,div.healcode a.hc-button.signup_now{display:none}div.healcode div div a img{display:none}img.trainer_image{float:left !important;margin:0 10px 5px 0;padding:5px;background:none repeat scroll 0 0 #F7F4E3;box-shadow:0 0 2px #998A51}html body.page div#ui-datepicker-div.ui-datepicker{z-index:10 !important;padding-top:7px !important}.ui-datepicker-next{left:87% !important;margin-top:1px}.ui-datepicker-previous{margin-top:1px}div.healcode div.trainer_show div.back_link{display:none}pre{background:inherit;font:inherit;line-height:inherit;padding:0}.widget_woothemes_testimonials .testimonials{position:relative}.widget_woothemes_testimonials .quote{background:url("images/quote-testimonials.png") no-repeat top left;background-position:0 1%;margin:0 0 1.618em;clear:both;display:inline-block}.widget_woothemes_testimonials .quote .testimonials-text{margin:0 0 1.2em 2.618em;font-size:.95em;font-family:"Georgia";font-style:italic;word-wrap:break-word;-webkit-hyphens:none;-moz-hyphens:none;hyphens:none}.widget_woothemes_testimonials .quote img{width:5em;height:5em;margin:0 1.2em 1.2em 2.618em;float:left;border:1px solid #eaeaea;padding:.302em}.widget_woothemes_testimonials .quote .author{word-wrap:break-word;float:left;display:block;font-style:normal;font-weight:bold;width:50%}.widget_woothemes_testimonials .quote .author .excerpt{display:block;font-style:italic;font-weight:normal}.widget_woothemes_testimonials .quote .author .url{font-weight:normal}#sidebar .widget_woothemes_testimonials .quote,#footer-widgets .widget_woothemes_testimonials .quote{margin:0 0 1.618em}#sidebar .widget_woothemes_testimonials .flex-direction-nav,#footer-widgets .widget_woothemes_testimonials .flex-direction-nav{position:absolute;top:-1em;right:1.75em}#sidebar .widget_woothemes_testimonials .flex-direction-nav a,#footer-widgets .widget_woothemes_testimonials .flex-direction-nav a{opacity:1;width:7px;height:12px;background-image:url("images/bg_directional_nav_testimonials.png")}#sidebar .widget_woothemes_testimonials .flex-direction-nav .flex-prev,#footer-widgets .widget_woothemes_testimonials .flex-direction-nav .flex-prev{left:0}#sidebar .widget_woothemes_testimonials .flex-direction-nav .flex-next,#footer-widgets .widget_woothemes_testimonials .flex-direction-nav .flex-next{right:-20px}#sidebar .widget_woothemes_testimonials .testimonials,#footer-widgets .widget_woothemes_testimonials .testimonials{margin:0;padding:0}#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list>.quote,#footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list>.quote{display:none;-webkit-backface-visibility:hidden}#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list img,#footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list img{max-width:100%;display:block}#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list:after,#footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}#sidebar .widget_woothemes_testimonials html[xmlns] .testimonials .testimonials-list,#footer-widgets .widget_woothemes_testimonials html[xmlns] .testimonials .testimonials-list{display:block}#sidebar .widget_woothemes_testimonials * html .testimonials .testimonials-list,#footer-widgets .widget_woothemes_testimonials * html .testimonials .testimonials-list{height:1%}#sidebar .widget_woo_component,#footer-widgets .widget_woo_component{padding-bottom:0;border:0}#sidebar .widget_woo_component #blog-posts .item,#footer-widgets .widget_woo_component #blog-posts .item{margin-right:0;width:100%}@font-face{font-family:'icomoon';src:url("fonts/icomoon.eot");src:url("fonts/icomoon.eot?#iefix") format("embedded-opentype"),url("fonts/icomoon.woff") format("woff"),url("fonts/icomoon.ttf") format("truetype"),url("fonts/icomoon.svg#icomoon") format("svg");font-weight:normal;font-style:normal}[data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}.icon-facebook,.icon-facebook-2,.icon-facebook-3,.icon-twitter,.icon-twitter-2,.icon-twitter-3,.icon-linkedin,.icon-linkedin-2,.icon-link,.icon-mail,.icon-mail-2,.icon-phone,.icon-home,.icon-address-book,.icon-file-pdf,.icon-film,.icon-comments,.icon-user,.icon-star,.icon-heart,.icon-heart-2,.icon-arrow-up,.icon-arrow-right,.icon-arrow-down,.icon-arrow-left,.icon-arrow-up-2,.icon-arrow-right-2,.icon-arrow-down-2,.icon-arrow-left-2,.icon-wordpress,.icon-paperclip,.icon-download,.icon-arrow-down-alt1,.icon-mobile,.icon-earth,.icon-zoom-in,.icon-search,.icon-rocket,.icon-coffee,.icon-wrench,.icon-zoom-out,.icon-cog,.icon-plus,.icon-minus,.icon-help,.icon-blocked,.icon-cancel,.icon-cancel-2,.icon-checkmark,.icon-minus-2,.icon-plus-2,.icon-droplet,.icon-play,.icon-camera,.icon-music,.icon-printer,.icon-user-2,.icon-key,.icon-locked,.icon-gift,.icon-fire,.icon-lab,.icon-music-2,.icon-mobile-2,.icon-gift-2,.icon-map-pin-stroke,.icon-location,.icon-paypal,.icon-skype,.icon-yelp,.icon-home-2,.icon-pencil,.icon-pencil-2,.icon-broadcast,.icon-clock,.icon-camera-2,.icon-comments-2,.icon-accessibility,.icon-star-2,.icon-attachment,.icon-google-plus,.icon-google-plus-2,.icon-plus-alt,.icon-minus-alt,.icon-x-altx-alt,.icon-check-alt,.icon-checkmark-2,.icon-x,.icon-move-alt2,.icon-arrow-left-alt1,.icon-arrow-right-alt1,.icon-arrow-up-alt1,.icon-microphone,.icon-headphones,.icon-calendar,.icon-calendar-2,.icon-pictures,.icon-file,.icon-phone-2,.icon-pie,.icon-bars,.icon-bell,.icon-accessibility-2{font-family:'icomoon', arial, sans-serif;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}.icon-facebook:before{content:"\e000"}.icon-facebook-2:before{content:"\e002"}.icon-facebook-3:before{content:"\e001"}.icon-twitter:before{content:"\e003"}.icon-twitter-2:before{content:"\e004"}.icon-twitter-3:before{content:"\e005"}.icon-linkedin:before{content:"\e006"}.icon-linkedin-2:before{content:"\e007"}.icon-link:before{content:"\e008"}.icon-mail:before{content:"\e009"}.icon-mail-2:before{content:"\e00a"}.icon-phone:before{content:"\e00b"}.icon-home:before{content:"\e00c"}.icon-address-book:before{content:"\e00d"}.icon-file-pdf:before{content:"\e00e"}.icon-film:before{content:"\e00f"}.icon-comments:before{content:"\e010"}.icon-user:before{content:"\e011"}.icon-star:before{content:"\e012"}.icon-heart:before{content:"\e013"}.icon-heart-2:before{content:"\e014"}.icon-arrow-up:before{content:"\e015"}.icon-arrow-right:before{content:"\e016"}.icon-arrow-down:before{content:"\e017"}.icon-arrow-left:before{content:"\e018"}.icon-arrow-up-2:before{content:"\e019"}.icon-arrow-right-2:before{content:"\e01a"}.icon-arrow-down-2:before{content:"\e01b"}.icon-arrow-left-2:before{content:"\e01c"}.icon-wordpress:before{content:"\e01d"}.icon-paperclip:before{content:"\e01f"}.icon-download:before{content:"\e021"}.icon-arrow-down-alt1:before{content:"\e022"}.icon-mobile:before{content:"\e01e"}.icon-earth:before{content:"\e020"}.icon-zoom-in:before{content:"\e023"}.icon-search:before{content:"\e024"}.icon-rocket:before{content:"\e025"}.icon-coffee:before{content:"\e026"}.icon-wrench:before{content:"\e027"}.icon-zoom-out:before{content:"\e028"}.icon-cog:before{content:"\e029"}.icon-plus:before{content:"\e02a"}.icon-minus:before{content:"\e02b"}.icon-help:before{content:"\e02c"}.icon-blocked:before{content:"\e02d"}.icon-cancel:before{content:"\e02e"}.icon-cancel-2:before{content:"\e02f"}.icon-checkmark:before{content:"\e030"}.icon-minus-2:before{content:"\e031"}.icon-plus-2:before{content:"\e032"}.icon-droplet:before{content:"\e033"}.icon-play:before{content:"\e034"}.icon-camera:before{content:"\e035"}.icon-music:before{content:"\e036"}.icon-printer:before{content:"\e037"}.icon-user-2:before{content:"\e038"}.icon-key:before{content:"\e039"}.icon-locked:before{content:"\e03a"}.icon-gift:before{content:"\e03b"}.icon-fire:before{content:"\e03c"}.icon-lab:before{content:"\e03d"}.icon-music-2:before{content:"\e03e"}.icon-mobile-2:before{content:"\e03f"}.icon-gift-2:before{content:"\e040"}.icon-map-pin-stroke:before{content:"\e041"}.icon-location:before{content:"\e042"}.icon-paypal:before{content:"\e043"}.icon-skype:before{content:"\e044"}.icon-yelp:before{content:"\e045"}.icon-home-2:before{content:"\e046"}.icon-pencil:before{content:"\e047"}.icon-pencil-2:before{content:"\e048"}.icon-broadcast:before{content:"\e049"}.icon-clock:before{content:"\e04a"}.icon-camera-2:before{content:"\e04b"}.icon-comments-2:before{content:"\e04c"}.icon-accessibility:before{content:"\e04d"}.icon-star-2:before{content:"\e04e"}.icon-attachment:before{content:"\e04f"}.icon-google-plus:before{content:"\e050"}.icon-google-plus-2:before{content:"\e051"}.icon-plus-alt:before{content:"\e052"}.icon-minus-alt:before{content:"\e053"}.icon-x-altx-alt:before{content:"\e054"}.icon-check-alt:before{content:"\e055"}.icon-checkmark-2:before{content:"\e056"}.icon-x:before{content:"\e057"}.icon-move-alt2:before{content:"\e058"}.icon-arrow-left-alt1:before{content:"\e059"}.icon-arrow-right-alt1:before{content:"\e05a"}.icon-arrow-up-alt1:before{content:"\e05b"}.icon-microphone:before{content:"\e05c"}.icon-headphones:before{content:"\e05d"}.icon-calendar:before{content:"\e05e"}.icon-calendar-2:before{content:"\e05f"}.icon-pictures:before{content:"\e060"}.icon-file:before{content:"\e061"}.icon-phone-2:before{content:"\e062"}.icon-pie:before{content:"\e063"}.icon-bars:before{content:"\e064"}.icon-bell:before{content:"\e065"}.icon-accessibility-2:before{content:"\e066"}.widget_woothemes_our_team .columns-2,.widget_woothemes_our_team .columns-3,.widget_woothemes_our_team .columns-4,.widget_woothemes_our_team .columns-5,.widget_woothemes_our_team .columns-6{overflow:hidden;zoom:1}.widget_woothemes_our_team .columns-2 .team-member,.widget_woothemes_our_team .columns-3 .team-member,.widget_woothemes_our_team .columns-4 .team-member,.widget_woothemes_our_team .columns-5 .team-member,.widget_woothemes_our_team .columns-6 .team-member{float:left;margin-right:3.8%}.widget_woothemes_our_team .columns-2 .team-member.first,.widget_woothemes_our_team .columns-3 .team-member.first,.widget_woothemes_our_team .columns-4 .team-member.first,.widget_woothemes_our_team .columns-5 .team-member.first,.widget_woothemes_our_team .columns-6 .team-member.first{clear:both}.widget_woothemes_our_team .columns-2 .team-member.last,.widget_woothemes_our_team .columns-3 .team-member.last,.widget_woothemes_our_team .columns-4 .team-member.last,.widget_woothemes_our_team .columns-5 .team-member.last,.widget_woothemes_our_team .columns-6 .team-member.last{margin-right:0}.widget_woothemes_our_team .columns-2 .team-member{width:48%}.widget_woothemes_our_team .columns-3 .team-member{width:30.75%}.widget_woothemes_our_team .columns-4 .team-member{width:22.05%}.widget_woothemes_our_team .columns-5 .team-member{width:16.9%}.widget_woothemes_our_team .columns-6 .team-member{width:13.5%}@media only screen and (max-width: 1024px){body.page-id-443 div#primary div.wp-caption:nth-child(3n+1){margin:0 23px 20px 0}body.page-id-443 div#primary div.wp-caption:nth-child(4n+1){margin:0 0px 20px 0}}@media only screen and (min-width: 960px) and (max-width: 1024px){body.home #header-widget{width:64%}body.home #header #logo img{width:100%}#access li{font-size:12px}input#s{font-size:12px;padding:2px 6px 2px 28px}div#sidebar-featured-image img.wp-post-image{width:100%}.sidebar-image-round{height:auto;margin:0;max-height:278px;padding:0}#supplementary.three .widget-area{margin-right:1.7%;width:auto}div#supplementary.three div#second.widget-area{width:27%}div#secondary div.ssw_image_element,div#secondary div.ssw_image_element img{width:99% !important}}@media only screen and (min-width: 768px) and (max-width: 959px){#page{max-width:960px}#header{width:99%}input#s{font-size:12px;padding:0px 6px 0px 28px}div#navbar #s{background-position:3px center}div#navbar #s:focus{width:100px}#primary{padding:10px 0 20px;width:100%}#main #content{margin:0 2.5%;width:95%}#main #secondary{float:right;margin:0;width:100%}div#secondary div#smartslideshowwidget-2 div.ssw_main{margin:0 auto !important}#header-widget{width:60%;font-size:12px}#access li{font-size:11px}.sidebar-image-round{display:none}#header-widget div#text-6{right:10px}body.home #header #logo{width:30%}body.home #header #logo img{width:100%;margin-top:30px}body.home #header-widget{width:63%}div#homepage-intro{font-size:12px}#colophon #supplementary .widget-area{float:left;width:50%;margin-right:0}div#supplementary.three div#third.widget-area{display:none}#site-generator{padding:20px 15px}}@media only screen and (min-width: 768px) and (max-width: 860px){div#homepage-intro{font-size:11px}}
+green border: #AECE83 = rgba(174, 206, 131, 0.75)
+brown border: #	 = rgba(85, 75, 29, .5)
+links: #	; - a green
+dark green text: #48750A
+body black text : #373737
+
+*********/
+/*an orange red*/
+/*a red*/
+/****************layout**********************/
+/* line 31, style.scss */
+body {
+  padding: 0 !important;
+  margin: 0;
+  background-image: url("images/light-wood-paneling-bg.jpg");
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: fixed;
+}
+
+/* line 40, style.scss */
+body #page {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*other*/
+/* line 54, style.scss */
+.widget ul {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+/* line 59, style.scss */
+div.entry-content img.attachment-thumbnail {
+  float: left;
+  margin: 0 10px 10px 0;
+  border-radius: 10px;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DDDDDD;
+  padding: 4px;
+}
+
+/* line 68, style.scss */
+div.entry-content img.attachment-thumbnail:hover {
+  background: #eee;
+  border-color: #bbb;
+}
+
+/* line 73, style.scss */
+#page {
+  background: none;
+  margin: 10px auto;
+  max-width: 66.7em;
+}
+
+/* line 79, style.scss */
+.entry-content, .entry-summary {
+  padding: 0;
+}
+
+/*image styling*/
+/* line 86, style.scss */
+.wp-caption {
+  background: #F7F4E3;
+  box-shadow: 0 0 2px #998A51;
+  margin-bottom: 1em;
+  max-width: 96%;
+  padding: 5px;
+}
+
+/* line 95, style.scss */
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  color: #666;
+  font-family: Georgia, serif;
+  font-size: 12px;
+}
+
+/* line 101, style.scss */
+.wp-caption .wp-caption-text {
+  margin-bottom: 0.2em;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+/* line 108, style.scss */
+.wp-caption .wp-caption-text:before {
+  color: #666;
+  content: normal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  margin-right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 120, style.scss */
+.ssw_left_arrow {
+  /*the navigation arrow for the slideshow*/
+  margin-left: 2px;
+}
+
+/* line 124, style.scss */
+h2.gallerytitle, h3.albumlink {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 129, style.scss */
+h3.albumlink {
+  text-transform: none;
+  font-size: .9em;
+  font-weight: normal;
+}
+
+/*header area*/
+/* line 137, style.scss */
+#branding {
+  position: relative;
+  border-top: medium none;
+  padding-bottom: 0;
+  z-index: 0;
+  /*otherwise this displays ontop of the foobar*/
+}
+
+/* line 144, style.scss */
+#header {
+  border: 1px #b9b9b9 solid;
+  min-height: 180px;
+  background: url(images/headers/banner_studio.jpg) no-repeat white;
+  display: block;
+  width: 99%;
+  /* width:990px; attempting a fluid responsive layout for mobile*/
+  margin-bottom: 15px;
+  width: 958px;
+  /*because a border of 1px on either side adds up to 960px*/
+  height: 220px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+  z-index: 0;
+}
+
+/*social media buttons*/
+/* line 160, style.scss */
+.socialmedia-buttons {
+  display: block;
+  height: 38px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 2;
+}
+
+/* line 169, style.scss */
+.socialmedia-buttons a {
+  float: right;
+  color: white;
+  float: right;
+  font-size: 1.6em;
+  padding: 0 4px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -webkit-transition: color 0.15s ease-in 0s;
+  -moz-transition: color 0.15s ease-in 0s;
+  -ms-transition: color 0.15s ease-in 0s;
+  -o-transition: color 0.15s ease-in 0s;
+  transition: color 0.15s ease-in 0s;
+}
+
+/* line 186, style.scss */
+.socialmedia-buttons a:hover {
+  text-decoration: none;
+  color: #aece83;
+}
+
+/* line 191, style.scss */
+.socialmedia-buttons img.fade {
+  margin-right: 0px !important;
+}
+
+/*content area*/
+/* line 199, style.scss */
+#main {
+  padding: 0;
+  margin: 0px auto;
+  /*used to have a 20px top margin, but this didn't render smoothly on chrome, giving the sidebar more spacing, so I put a bottom margin on the header instead*/
+}
+
+/* line 204, style.scss */
+#primary {
+  width: 38em;
+            /*attempt at getting iphones to display better - for iphones & ipads, it shoudl be 36ems
+width:570px;*/
+  margin: 0 0 20px 0;
+  padding: 20px;
+  background: #FFF;
+  box-shadow: 0 0 2px #554B1D inset;
+  -webkit-box-shadow: 0 0 2px #554B1D inset;
+  -moz-box-shadow: 0 0 2px #554B1D inset;
+}
+
+/* line 216, style.scss */
+div#primary p {
+  /*Golden ratio calculated for a general content width of 530 pixels*/
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* line 221, style.scss */
+#primary article {
+  padding: 0 20px 15px 20px;
+}
+
+/* line 225, style.scss */
+.singular #content, .left-sidebar.singular #content {
+  margin: 0 auto;
+}
+
+/* line 230, style.scss */
+#secondary {
+  width: 30em;
+  	            /*attempt at getting iphones to display better
+      width: 360px;*/
+  margin: 0;
+  padding: 0;
+}
+
+/* line 238, style.scss */
+div#secondary .widget, div#sidebar-wyswig-content, div#sidebar-featured-image {
+  background: none repeat scroll 0 0 #D3E4B8;
+  margin: 20px auto;
+  border: #AECE83 2px solid;
+  padding: 20px;
+  overflow: hidden;
+  /*makes it so that the backgrounds of the interior divs get clipped into the border as a mask, in Firefox anyway*/
+}
+
+/* line 246, style.scss */
+div#secondary .widget, div#sidebar-featured-image, div#sidebar-featured-image div#wyswig-content {
+  /*sets the interior box shadow*/
+  -webkit-box-shadow: 0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+  -moz-box-shadow: 0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+  box-shadow: 0px 0px 11px rgba(174, 206, 131, 0.5) inset;
+}
+
+/* line 252, style.scss */
+div#sidebar-featured-image {
+  /*the surrounding div for the featured image and the wyswig content*/
+  margin: 0 auto 20px auto;
+  padding: 0;
+  background-color: #FFF;
+  /* deactivated in order to have a cleaner white border for the image without a caption*/
+}
+
+/* line 258, style.scss */
+div#sidebar-featured-image:empty {
+  /*doesn't work because there are contained divs, even if they are hidden*/
+  display: none;
+}
+
+/* line 262, style.scss */
+div.sidebar-image-round:empty {
+  display: none;
+}
+
+/* line 266, style.scss */
+.sidebar-image-round {
+  -webkit-border-radius: 19px 19px 0 0;
+  -moz-border-radius: 19px 19px 0 0;
+  border-radius: 19px 19px 0 0;
+  /* height: 293px; disabled or this causes there to be empty space when the image isn't that tall*/
+  border: 2px solid #FFFFFF;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  max-height: 291px;
+  /*so that there isn't any extra space from the base of the image to the border*/
+}
+
+/* line 278, style.scss */
+div#sidebar-featured-image img.wp-post-image {
+  margin: 0 auto;
+  -webkit-border-radius: 16px 16px 0 0;
+  -moz-border-radius: 16px 16px 0 0;
+  border-radius: 16px 16px 0 0;
+  margin: 0 auto;
+  width: 352px;
+}
+
+/* line 287, style.scss */
+div#sidebar-featured-image div#wyswig-content {
+  background: none repeat scroll 0 0 #D3E4B8;
+  padding: 10px 15px;
+  -webkit-border-radius: 0 0 19px 19px;
+  -moz-border-radius: 0 0 19px 19px;
+  border-radius: 0 0 19px 19px;
+  border-top: 2px solid #aece83;
+}
+
+/* line 297, style.scss */
+div#sidebar-featured-image div#wyswig-content:empty {
+  display: none;
+}
+
+/* line 301, style.scss */
+div#wyswig-content h1, div#wyswig-content h2, div#wyswig-content h3, div#wyswig-content h4 {
+  padding-top: 10px;
+}
+
+/* line 305, style.scss */
+div#sidebar-featured-image div.featured-image-caption {
+  font-size: 16px;
+  /*margin: -7px auto 0; this allows there to not have any gap between the image and the caption - Gray might need to change this back*/
+  margin: 0 auto;
+  padding: 10px 10px 5px;
+  text-align: center;
+}
+
+/* line 313, style.scss */
+.sidebar-featured-image-p {
+  overflow: hidden;
+  Xborder-radius: 0 0 20px 20px;
+  X-webkit-border-radius: 0 0 20px 20px;
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+}
+
+/* line 322, style.scss */
+div.featured-image-caption:empty {
+  display: none;
+}
+
+/* line 326, style.scss */
+div#sidebar-featured-image p:empty {
+  display: none;
+}
+
+/* line 330, style.scss */
+#content {
+  margin: 0;
+  width: 100%;
+}
+
+/*photogallery
+
+.ngg-album-compact {
+    padding-right: 22px !important;
+}*/
+/*teacher page*/
+/* line 346, style.scss */
+body.page-id-443 div#primary div.wp-caption {
+  background: #f7f4e3 url(images/tan-noise.png) repeat;
+  box-shadow: 0 0 2px #998A51;
+  margin: 0 23px 20px 0;
+  max-width: 96%;
+  padding: 5px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 142px !important;
+  /*overides the element */
+}
+
+/* line 358, style.scss */
+body.page-id-443 div#primary div.wp-caption:nth-child(3n+1) {
+  /*so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly*/
+  margin-right: 0;
+}
+
+/* line 362, style.scss */
+body.page-id-443 div#primary div.wp-caption .wp-caption-text {
+  font: 300 15px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 366, style.scss */
+body.page-id-443 div#primary div.wp-caption:hover, body.page-id-443 div#primary div.wp-caption:active {
+  background: rgba(247, 244, 227, 0.5);
+}
+
+/* line 370, style.scss */
+body.page-id-443 div#primary div.wp-caption a img {
+  background: none;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 0;
+  max-width: 140px;
+  border: .5px #E4E0D1 solid;
+}
+
+/* line 381, style.scss */
+body.page-id-443 div#primary div.wp-caption:hover a img:hover {
+  opacity: .8;
+}
+
+/*********************no sidebar template ***********************/
+/* line 387, style.scss */
+body.page-template-no-sidebar-page-php #primary {
+  width: 920px;
+}
+
+/* line 391, style.scss */
+div#wyswig-content div.sharing {
+  display: none;
+}
+
+/*********** MISC **************/
+/* line 397, style.scss */
+img#wpstats {
+  display: NONE;
+  margin: 0;
+}
+
+/* line 402, style.scss */
+div#secondary.widget-area div#sidebar-featured-image div#wyswig-content div.sharedaddy {
+  display: none;
+}
+
+/* line 406, style.scss */
+a#hellobar-logo {
+  display: none !important;
+}
+
+/* line 410, style.scss */
+table.foobar-container {
+  background: url(http://yogaunioncwc.com/wp-content/themes/2011YogaChild/images/green-noise.png) repeat;
+}
+
+/* line 414, style.scss */
+.center {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/********* new responsive sizeing***********/
+/* line 421, style.scss */
+#page {
+  max-width: 960px;
+}
+
+/* line 425, style.scss */
+#primary {
+  width: 57%;
+}
+
+/* line 429, style.scss */
+body.home #header-widget {
+  width: 66%;
+}
+
+/* line 433, style.scss */
+#secondary {
+  width: 37.5%;
+}
+
+/*SURVEY STYLING*/
+/* line 439, style.scss */
+ul.wpsqt_multiple_question li {
+  list-style: none;
+}
+
+/*****FREQUENTLY ASKED QUESTIONS TOGGLES FAQ*************/
+/* line 445, style.scss */
+h3.trigger a {
+  color: #333333;
+  display: block;
+  line-height: 27px;
+  margin-left: 30px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* line 454, style.scss */
+h3.trigger a:hover {
+  color: #598C13 !important;
+}
+
+/* line 458, style.scss */
+h3.trigger:nth-of-type(2n+1), h3.trigger:nth-of-type(2n+1) + div.toggle_container {
+  background-color: #f4f4ef !important;
+  /*a lighter tan color than most of the tables, but better color branding than the light grey*/
+  color: #373737 !important;
+}
+
+/****************typography**********************/
+/* line 3, _typography.scss */
+a {
+  color: #75B719;
+  /*a green*/
+}
+
+/* line 7, _typography.scss */
+body.page-id-443 #primary article a {
+  color: #666666;
+  /*a grey color for the links on the teacher page for the captions*/
+}
+
+/* line 11, _typography.scss */
+div#content h1, div#content h2, div#content h3 {
+  color: #48750A;
+}
+
+/* line 17, _typography.scss */
+div#content h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+/* line 21, _typography.scss */
+div#content h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-weight: 400;
+}
+
+/* line 28, _typography.scss */
+#supplementary h3 {
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+}
+
+/* line 34, _typography.scss */
+#secondary h2 {
+  font-size: 18px;
+}
+
+/* line 38, _typography.scss */
+#secondary h2 {
+  font-weight: bold;
+}
+
+/* line 42, _typography.scss */
+#secondary h1, #secondary h2, #secondary h3, #secondary h4 {
+  text-align: center;
+}
+
+/* line 46, _typography.scss */
+#secondary a {
+  color: #48750A;
+}
+
+/* line 50, _typography.scss */
+#secondary a.actionbutton {
+  color: #FFF;
+}
+
+/* line 54, _typography.scss */
+#secondary .widget-title {
+  color: #666666;
+  line-height: 1.4em;
+  margin-bottom: 16px;
+}
+
+/* line 60, _typography.scss */
+.entry-content h3, .comment-content h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+/* line 67, _typography.scss */
+a:hover {
+  color: #598C13;
+}
+
+/* line 71, _typography.scss */
+.alignleft {
+  margin-right: 20px;
+}
+
+/* line 75, _typography.scss */
+.entry-title {
+  color: #222;
+}
+
+/* line 79, _typography.scss */
+.entry-title,
+.entry-title a {
+  color: #222;
+  text-decoration: none;
+  -moz-transition: color 0.2s linear 0s;
+}
+
+/* line 85, _typography.scss */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+  color: #1982d1;
+}
+
+/* line 91, _typography.scss */
+p.none {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 96, _typography.scss */
+a.clickhere {
+  padding-left: 20px;
+  background: url(images/right-arrow16px.png) no-repeat;
+  min-height: 16px;
+}
+
+/* line 102, _typography.scss */
+hr {
+  background-color: #CCC;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.625em;
+  clear: both;
+}
+
+/*****icons for hot flow yoga schedule **********/
+/* line 112, _typography.scss */
+span.hot_flow:before, span.yoga_basics_free_class:before, span.vinyasa_basics_5_00_or_class_package:before,
+span.gentle_yoga_for_everyone_5_00_drop_in:before,
+span.vinyasa_1_5_00_or_class_package:before,
+span.group_meditation_donation_class:before {
+  font-family: 'icomoon', arial, sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 7px;
+  margin-left: -20px;
+  content: "\e03c";
+  color: #FF8607;
+  /*an orange red*/
+}
+
+/* line 127, _typography.scss */
+span.yoga_basics_free_class:before, span.vinyasa_basics_5_00_or_class_package:before,
+span.gentle_yoga_for_everyone_5_00_drop_in:before,
+span.vinyasa_1_5_00_or_class_package:before,
+span.group_meditation_donation_class:before {
+  content: "\e013";
+  color: #ff3307;
+  position: relative;
+  top: 1px;
+}
+
+/* line 136, _typography.scss */
+span.vinyasa_basics_5_00_or_class_package:before,
+span.gentle_yoga_for_everyone_5_00_drop_in:before,
+span.vinyasa_1_5_00_or_class_package:before {
+  content: "\e014";
+}
+
+/*******this is the nav bar**************/
+/*
+#navbar {
+	background-color: #554B1D;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top:5px #554B1D solid;
+	height:44px;
+	clear:left;
+	z-index: 1;
+}
+*/
+/* line 20, _navigation.scss */
+#access {
+  margin: 0 auto 15px;
+  width: 100%;
+  background: #f7f4e3 url(images/tan-noise.png) repeat;
+  border-radius: 12px;
+  border: 1px #b9b9b9 solid;
+  box-shadow: inset 0 0 1px white;
+}
+
+/* line 29, _navigation.scss */
+#access div {
+  margin: 0;
+}
+
+/* line 33, _navigation.scss */
+#access ul {
+  margin: 0;
+}
+
+/* line 37, _navigation.scss */
+#access ul ul {
+  border-top: 0px solid #554B1D;
+  top: 42px;
+}
+
+/* line 43, _navigation.scss */
+#access a {
+  background: transparent;
+  color: #483d3b;
+  text-transform: uppercase;
+}
+
+/* line 49, _navigation.scss */
+#access li:hover > a,
+#access a:focus {
+  background: #f9f9f9;
+  /* Show a solid color for older browsers */
+  -moz-transition: background 0.2s linear 0s;
+  -webkit-transition: background 0.2s linear 0s;
+  transition: background 0.2s linear 0s;
+}
+
+/* line 57, _navigation.scss */
+#access ul li#menu-item-623 > a:hover {
+  /*makes the home page link rounded corner - i should really use descendent selectors, but I don't them that well*/
+  -webkit-border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+/* line 63, _navigation.scss */
+#access ul li ul li a:hover {
+  /*gives a hover effect for the drop-down menu*/
+  background: #FFF;
+  /* Show a solid color for older browsers */
+  -moz-transition: background 0.2s linear 0s;
+  -webkit-transition: background 0.2s linear 0s;
+  transition: font-weight background 0.2s linear 0s;
+  font-weight: bold;
+}
+
+/* Search Form */
+/* line 75, _navigation.scss */
+input#s {
+  /*the search bar - added on 12-16-2012*/
+  height: 24px;
+  /*modified from 33px on 2-29-12*/
+}
+
+/* line 79, _navigation.scss */
+div#navbar #searchform {
+  position: relative;
+  right: 5px;
+  top: 5px;
+  text-align: right;
+}
+
+/* line 86, _navigation.scss */
+div#navbar #searchform div {
+  margin: 0;
+}
+
+/* line 89, _navigation.scss */
+div#navbar #s {
+  float: right;
+  -webkit-transition-duration: 400ms;
+  -webkit-transition-property: width, background;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-duration: 400ms;
+  -moz-transition-property: width, background;
+  -moz-transition-timing-function: ease;
+  -o-transition-duration: 400ms;
+  -o-transition-property: width, background;
+  -o-transition-timing-function: ease;
+  width: 85px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #FFFDF5;
+  /*the tan color the search bar starts off as*/
+}
+
+/* line 108, _navigation.scss */
+div#navbar #s:focus {
+  background-color: #f9f9f9;
+  /*the white color the search bar ends with after expansion*/
+  width: 150px;
+  /*how wide the search form ends up as*/
+}
+
+/* line 112, _navigation.scss */
+div#navbar #searchsubmit {
+  display: none;
+}
+
+/* line 115, _navigation.scss */
+div#navbar .only-search #searchform {
+  top: 5px;
+  z-index: 1;
+}
+
+/* line 119, _navigation.scss */
+div#navbar .only-search #s {
+  background-color: #E4E1D0;
+  border-color: #000;
+  color: #222;
+}
+
+/* line 124, _navigation.scss */
+div#navbar .only-search #s,
+div#navbar .only-search #s:focus {
+  width: 85%;
+}
+
+/* line 128, _navigation.scss */
+div#navbar .only-search #s:focus {
+  background-color: #FFF;
+  /*tan color for focus*/
+}
+
+/* line 131, _navigation.scss */
+div#navbar .with-image #searchform {
+  top: auto;
+  bottom: -27px;
+  max-width: 150px;
+}
+
+/* line 136, _navigation.scss */
+div#navbar .only-search + #access div {
+  padding-right: 205px;
+}
+
+/*blog specific*/
+/*featured image styling*/
+/* line 7, _blog.scss */
+body.single-post a.featured img.attachment-medium.wp-post-image {
+  border: 1px solid #bbb;
+  float: left;
+}
+/* line 12, _blog.scss */
+body.single-post div#content h1.entry-title {
+  padding-bottom: 15px;
+}
+/* line 15, _blog.scss */
+body.single-post div#content h2:first-of-type {
+  clear: none;
+}
+
+/* line 22, _blog.scss */
+.blog .hentry, .blog .no-results {
+  margin: 0;
+}
+/* line 26, _blog.scss */
+.blog #primary article {
+  padding: 20px 20px 15px 20px;
+}
+/* line 30, _blog.scss */
+.blog .entry-meta {
+  padding-bottom: 15px;
+}
+
+/* line 35, _blog.scss */
+div#secondary.blog .widget:first-of-type {
+  /*makes it so that our sidebar widgets align properly with the top*/
+  margin-top: 0px;
+}
+
+/* line 40, _blog.scss */
+div#content h1.entry-title {
+  clear: both;
+  color: #222222;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin: 0;
+  padding: 0px 0 5px;
+  margin-bottom: 0px;
+  max-width: 468px;
+}
+
+/* line 54, _blog.scss */
+.single-post .entry-header .entry-meta {
+  padding-right: 0;
+}
+
+/* line 57, _blog.scss */
+.single-post .entry-header .entry-meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 63, _blog.scss */
+.single-post .entry-content, .entry-summary {
+  padding: 0;
+}
+
+/* line 67, _blog.scss */
+.hentry, .no-results {
+  margin: 0 0 0.5em;
+}
+
+/* line 71, _blog.scss */
+.entry-header .comments-link a {
+  top: 1em;
+}
+
+/* line 75, _blog.scss */
+div#comments {
+  padding: 0 20px;
+}
+
+/*
+.commentlist .avatar {
+    left: -87px;
+}
+
+.commentlist > li:before {
+     left: -13px;
+} */
+/* line 88, _blog.scss */
+.commentlist {
+  width: 367px;
+}
+
+/* line 92, _blog.scss */
+ol.commentlist li.comment {
+  width: 415px;
+}
+
+/* line 96, _blog.scss */
+#author-info {
+  margin: 15px 0;
+}
+
+/* line 100, _blog.scss */
+.commentlist .children li.comment {
+  /*replies to individual comments, rather than the whole article*/
+  max-width: 375px;
+  border: 1px solid #DDDDDD;
+}
+
+/* line 105, _blog.scss */
+.commentlist .children .children li.comment {
+  /*replies to individual comments, rather than the whole article*/
+  max-width: 325px;
+}
+
+/*************************************** HOMEPAGE ****************************************************/
+/* line 4, _homepage.scss */
+div.announce-title {
+  clear: inherit;
+}
+
+/* line 8, _homepage.scss */
+div.announce-top {
+  display: block;
+  height: auto;
+}
+
+/* line 13, _homepage.scss */
+.announce-left {
+  float: left;
+}
+
+/* line 17, _homepage.scss */
+.announce-right {
+  float: left;
+  width: 67%;
+}
+
+/* line 25, _homepage.scss */
+div#homepage-intro .video-link {
+  top: 10px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 32, _homepage.scss */
+div#homepage-intro a.lbpModal.video-link img {
+  display: inline-block;
+}
+
+/* line 36, _homepage.scss */
+.icon-film:before {
+  font-size: 1.3em;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 44, _homepage.scss */
+div.announcement {
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #F2F2F2;
+  margin: 0;
+  padding: 20px 0;
+  clear: both;
+  min-height: 200px;
+  font-size: 0.8em;
+    /*
+    background: none repeat scroll 0 0 #F7F4E3;
+    padding: 20px;
+	box-shadow: 0 0 2px #554B1D;
+	margin-top: 20px;
+	@include border-radius(10px);
+	border:2px solid white;
+	*/
+}
+/* line 62, _homepage.scss */
+div.announcement:first-of-type {
+  margin-top: 0px;
+  border-top: 1px solid #CCCCCC;
+  padding-top: 20px;
+}
+/* line 68, _homepage.scss */
+div.announcement p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 78, _homepage.scss */
+body.home div#content div.announcement div.announcement-thumb {
+  float: left;
+  margin: 0 20px 0 0;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DDDDDD;
+  padding: 4px;
+  overflow: hidden;
+  position: static;
+  width: 150px;
+  height: 194px;
+}
+
+/*defines how the announcment thumbnail should look
+img.attachment-announcement-thumb { 
+	width:150px;
+	height:194px;
+}
+*/
+/* line 97, _homepage.scss */
+div#cboxContent div#cboxTitle {
+  display: none !important;
+}
+
+/* line 103, _homepage.scss */
+body.home div#content img.attachment-thumbnail:hover {
+  background: #eee;
+  border-color: #bbb;
+}
+
+/* line 108, _homepage.scss */
+body.home div#content div.announcement h2.announcement {
+  clear: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* line 116, _homepage.scss */
+body.home div.entry-content {
+  clear: none;
+  padding: 0;
+}
+
+/* line 121, _homepage.scss */
+body.home div.entry-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 125, _homepage.scss */
+div#secondary div.ngg_images {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 130, _homepage.scss */
+div#secondary div.ngg_images img {
+  border-radius: 20px;
+}
+
+/*homepage typography*/
+/* line 135, _homepage.scss */
+div#content div.announcement h3 {
+  clear: none;
+  color: #54503F;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 142, _homepage.scss */
+div#content div.announcement h3:empty {
+  display: none;
+}
+
+/* line 146, _homepage.scss */
+a.actionbutton:empty {
+  display: none;
+}
+
+/* line 150, _homepage.scss */
+a.actionbutton {
+  border: #D3E4B8 1px solid;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0;
+  position: relative;
+  line-height: 47px;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0 #86B70B;
+  background: #bfd255;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bfd255), color-stop(50%, #8eb92a), color-stop(51%, #72aa00), color-stop(100%, #9ecb2d));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 173, _homepage.scss */
+a.actionbutton:hover {
+  background: #bfd255;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(191, 210, 85, 0.8) 0%, rgba(142, 185, 42, 0.8) 50%, rgba(114, 170, 0, 0.8) 51%, rgba(158, 203, 45, 0.8) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(191, 210, 85, 0.8)), color-stop(50%, rgba(142, 185, 42, 0.8)), color-stop(51%, rgba(114, 170, 0, 0.8)), color-stop(100%, rgba(158, 203, 45, 0.8)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(191, 210, 85, 0.8) 0%, rgba(142, 185, 42, 0.8) 50%, rgba(114, 170, 0, 0.8) 51%, rgba(158, 203, 45, 0.8) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(191, 210, 85, 0.8) 0%, rgba(142, 185, 42, 0.8) 50%, rgba(114, 170, 0, 0.8) 51%, rgba(158, 203, 45, 0.8) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(191, 210, 85, 0.8) 0%, rgba(142, 185, 42, 0.8) 50%, rgba(114, 170, 0, 0.8) 51%, rgba(158, 203, 45, 0.8) 100%);
+  /* IE10+ */
+  background: linear-gradient(top, rgba(191, 210, 85, 0.8) 0%, rgba(142, 185, 42, 0.8) 50%, rgba(114, 170, 0, 0.8) 51%, rgba(158, 203, 45, 0.8) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccbfd255', endColorstr='#cc9ecb2d',GradientType=0 );
+  /* IE6-9 */
+  text-decoration: none;
+}
+
+/* line 185, _homepage.scss */
+a.actionbutton:active {
+  background: #9ecb2d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9ecb2d), color-stop(47%, #72aa00), color-stop(50%, #8eb92a), color-stop(100%, #bfd255));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #9ecb2d 0%, #72aa00 47%, #8eb92a 50%, #bfd255 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ecb2d', endColorstr='#bfd255',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 196, _homepage.scss */
+#secondary a.actionbutton {
+  text-align: center;
+  /*doesn't seem to work*/
+}
+
+/*homepage slideshow - mostly isn't useful as of 2-22-2012
+div#secondary div#slideshow-2 {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+}
+
+div#secondary div#slideshow-2 h2, div#secondary div.ngg_images h2{
+	display:none;
+}
+
+div#secondary div#slideshow-2 .widget, div#secondary div.ngg_images img{
+	margin:0;
+	padding:0;
+	border: 2px solid white;
+
+}
+
+*/
+/*
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget { /*the actual container for the images*/
+                                                                                                                                                             /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#secondary div#slideshow-2 div.ngg_slideshow .ngg-widget-slideshow img{ /* this rounds the corners of the images*/
+                                                                                                                      /*
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+}
+
+.entry-content img, .comment-content img, .widget img {
+	max-width:100%;
+	margin:0 15px 5px 0;
+	padding:5px;
+}
+
+.widget img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+/*homepage non-nextgen slideshow*/
+/* line 250, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+/* line 257, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 img {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 263, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 h2 {
+  display: none;
+}
+
+/* line 267, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 div.ssw_main {
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 275, _homepage.scss */
+div#secondary div.ssw_image_element {
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 283, _homepage.scss */
+div#secondary div.ssw_image_element img {
+  margin: 0;
+  padding: 0;
+  border: 2px solid white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 352px;
+  height: 232px;
+}
+
+/* line 294, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow, div#secondary div.ngg_images div.ngg-widget {
+  /*the actual container for the images*/
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 302, _homepage.scss */
+div#secondary div#smartslideshowwidget-2 div.ssw_main .ngg-widget-slideshow img {
+  /* this rounds the corners of the images*/
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+}
+
+/* line 310, _homepage.scss */
+.entry-content img, .comment-content img, .widget img {
+  max-width: 100%;
+  margin: 0 15px 5px 0;
+  padding: 5px;
+}
+
+/* line 316, _homepage.scss */
+.widget img.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*********** TABLE FORMATTING **************/
+/* line 4, _table.scss */
+.wp-table-reloaded {
+  border-collapse: separate;
+  border-spacing: 1px;
+  background-color: #CDCDCD;
+  margin: 10px 0px 15px 0px;
+  font-size: 8pt;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 14, _table.scss */
+th {
+  background-color: #E6EEEE;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  color: #3d3d3d !important;
+}
+
+/* line 20, _table.scss */
+td {
+  color: #3D3D3D;
+  padding: 4px;
+  background-color: #FFFFFF;
+  vertical-align: top;
+}
+
+/* line 26, _table.scss */
+.even td {
+  background-color: #FFFFFF;
+}
+
+/* line 29, _table.scss */
+.odd td {
+  background-color: #F0F0F6;
+}
+
+/* line 32, _table.scss */
+.row-hover tr:hover td {
+  background-color: #d0d0d6 !important;
+}
+
+/* line 35, _table.scss */
+.wp-table-reloaded-table-description {
+  clear: both;
+  display: block;
+}
+
+/* line 40, _table.scss */
+table th {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #554B1D;
+  color: white !important;
+}
+
+/* line 47, _table.scss */
+table .odd td {
+  background-color: #E6E4D7;
+}
+
+/* line 51, _table.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  background-color: #CDCDCD;
+  margin: 10px 0px 15px 0px;
+  font-size: 8pt;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 61, _table.scss */
+.column-1 {
+  width: 70%;
+}
+
+/* line 65, _table.scss */
+.column-2 {
+  padding-right: 3%;
+  width: 16%;
+}
+
+/********************* WELLNESS PAGE ********************/
+/* line 3, _wellness.scss */
+.bio-box {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, _wellness.scss */
+.bio-box .bio-left {
+  display: block;
+  width: 26%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, _wellness.scss */
+.bio-box .bio-right {
+  display: block;
+  width: 74%;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 24, _wellness.scss */
+.entry-content .bio-box .bio-right h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* line 29, _wellness.scss */
+div.bio-box div.bio-left img.alignnone {
+  padding: 0;
+  margin: 15px 0 0;
+  border: medium none;
+  background: none repeat scroll 0 0 transparent;
+  box-shadow: none;
+}
+
+/* line 36, _wellness.scss */
+div.bio-box div.bio-left img.headshot {
+  margin: 15px 0 0 15px;
+  padding: 15px;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+}
+
+/* line 42, _wellness.scss */
+div.bio-box div.bio-left p:empty {
+  /*prevents unnessecary whitespace caused by an automatic paragraph to wrap around the first image*/
+  display: none;
+}
+
+/* line 46, _wellness.scss */
+div.bio-left a.icon-file-pdf {
+  margin-left: 15px;
+}
+
+/* line 50, _wellness.scss */
+div.bio-box div.bio-left p {
+  margin-bottom: 0;
+}
+
+/* line 54, _wellness.scss */
+.bio-box .bio-left .bio-contact-info {
+  clear: both;
+  color: #7F7F7F;
+  display: block;
+  margin: 0 0 15px 8px;
+  /*having a bottom margin here ensures that even if the bio description box is shorter than the left box, the hr doesn't get too close*/
+}
+
+/* line 61, _wellness.scss */
+.bio-box .bio-left .bio-contact-info a {
+  color: inherit;
+}
+
+/* line 65, _wellness.scss */
+.bio-box .bio-left .bio-contact-info a:hover, div#secondary.widget-area a.icon-calendar:hover, div#secondary.widget-area a.icon-phone:hover, div#secondary.widget-area a.icon-mail:hover, div#secondary.widget-area a.icon-earth:hover, div#secondary.widget-area a.icon-pencil:hover {
+  color: #598C13;
+  text-decoration: none;
+}
+
+/* line 70, _wellness.scss */
+div.bio-box div.bio-right h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/************TESTIMONIALS*****************/
+/* line 77, _wellness.scss */
+.testimonial_rotator_wrap {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* line 82, _wellness.scss */
+.testimonial_rotator .slide .img img {
+  max-width: 100px !important;
+}
+
+/* line 86, _wellness.scss */
+.testimonial_rotator .slide .img {
+  width: 12% !important;
+  margin-right: 3% !important;
+}
+
+/* line 91, _wellness.scss */
+.testimonial_rotator_wrap div.text {
+  font-style: italic;
+}
+
+/*footer*/
+/* line 4, _footer.scss */
+footer#colophon {
+  /*border:5px #554B1D solid;*/
+  background: none;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 12, _footer.scss */
+#supplementary {
+  border-top: none;
+  padding: 10px 20px 0px;
+  position: relative;
+  bottom: -17px;
+}
+
+/* line 19, _footer.scss */
+#site-generator {
+  color: #FFF;
+  background-color: #554B1D;
+  background: url(images/light-tan-wood-bg.png) repeat #554b1d;
+  -webkit-border-TOP-right-radius: 10px;
+  -webkit-border-TOP-left-radius: 10px;
+  -moz-border-radius-TOP-right: 10px;
+  -moz-border-radius-top-left: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  line-height: inherit;
+  padding: 20px 15px 5px;
+  box-shadow: 0 1px 5px #3A3314 inset;
+  -moz-box-shadow: 0 1px 5px #3A3314 inset;
+  -webkit-box-shadow: 0 1px 5px #3A3314 inset;
+}
+
+/* line 36, _footer.scss */
+#site-generator a {
+  color: #FFF;
+}
+
+/* line 40, _footer.scss */
+#site-generator .copyright {
+  float: left;
+  margin: 0;
+}
+
+/* line 42, _footer.scss */
+#site-generator .credit {
+  float: right;
+  margin: 0;
+}
+
+/*controls the border-radius of the main content areas */
+/* line 45, _footer.scss */
+#primary, #secondary, div#secondary .widget, div#sidebar-wyswig-content, div#sidebar-featured-image {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  Xoverflow: hidden;
+  Xposition: static;
+}
+
+/* line 53, _footer.scss */
+footer aside.widget {
+  margin: 0;
+}
+
+/* line 57, _footer.scss */
+div.textwidget img.map {
+  padding: 0;
+  margin: -7px 0 0 -7px;
+}
+
+/* line 62, _footer.scss */
+div.textwidget p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 67, _footer.scss */
+aside#recent-comments-2 {
+  background: url(images/comments-bg.png) no-repeat;
+  height: 266px;
+  width: 293px;
+}
+
+/* line 73, _footer.scss */
+aside.widget ul#recentcomments {
+  padding: 5px 17px;
+  margin-left: 10px;
+}
+
+/* line 81, _footer.scss */
+aside#twitter_timeline-2, aside#twitter-2, .twtr-widget {
+  background: url(images/twitter-bg-2013.png) no-repeat;
+  height: 239px;
+  width: 293px;
+}
+/* line 86, _footer.scss */
+aside#twitter_timeline-2 .twtr-doc, aside#twitter-2 .twtr-doc, .twtr-widget .twtr-doc {
+  padding: 0 10px;
+  width: 271px !important;
+}
+/* line 89, _footer.scss */
+aside#twitter_timeline-2 .twtr-doc p, aside#twitter-2 .twtr-doc p, .twtr-widget .twtr-doc p {
+  line-height: 1.5 !important;
+}
+
+/* line 97, _footer.scss */
+#twtr-widget-1 .twtr-tweet-text {
+  margin: 10px 10px 0;
+}
+
+/* line 102, _footer.scss */
+#twitter-widget-0 {
+  border: none;
+  max-width: 267px;
+  padding-left: 13px;
+}
+
+/* line 109, _footer.scss */
+ul.tweets {
+  margin-left: 0;
+  padding: 5px 17px;
+  height: 135px;
+  overflow: hidden;
+}
+
+/* line 116, _footer.scss */
+.widget_twitter .timesince {
+  margin-right: 0px;
+}
+
+/* line 120, _footer.scss */
+div.textwidget p.footer-contact-info {
+  margin-top: -5px;
+}
+
+/* line 124, _footer.scss */
+div.textwidget p.footer-contact-info a {
+  color: #598C13;
+}
+
+/* line 130, _footer.scss */
+.twtr-user, .twtr-hd, .twtr-ft {
+  display: none;
+}
+
+/**************** HEAL CODE SCHEDULE, CLASS DESCRIPTION, AND TEACHER DESCRIPTION *******************/
+/* line 4, _healcode.scss */
+div.healcode .header .date_links {
+  font-size: 1.2em;
+}
+
+/* line 8, _healcode.scss */
+.print_version {
+  display: none;
+}
+
+/* line 12, _healcode.scss */
+div.healcode .header {
+  background-color: #FFFFFF !important;
+}
+
+/* line 15, _healcode.scss */
+div.healcode {
+  color: #373737 !important;
+}
+
+/* line 18, _healcode.scss */
+div.healcode .classname a {
+  color: #373737 !important;
+}
+
+/* line 21, _healcode.scss */
+div.healcode a {
+  color: #75B719 !important;
+}
+
+/* line 24, _healcode.scss */
+div.healcode table.schedule tr th {
+  background-color: #554B1D !important;
+}
+
+/* line 27, _healcode.scss */
+div.healcode table.schedule tr.odd td {
+  background-color: #FFFFFF !important;
+}
+
+/* line 30, _healcode.scss */
+div.healcode table.schedule tr th {
+  color: #FFFFFF !important;
+}
+
+/* line 33, _healcode.scss */
+div.healcode table.schedule tr.even td {
+  background-color: #E6E4D7 !important;
+}
+
+/* line 36, _healcode.scss */
+div.healcode h1 {
+  color: #48750A !important;
+}
+
+/* line 41, _healcode.scss */
+div.healcode table.schedule tr th.trainer {
+  width: 130px;
+}
+
+/* line 45, _healcode.scss */
+div.healcode table.schedule tr th.mbo_class {
+  width: 180px;
+}
+
+/* line 49, _healcode.scss */
+span.class_offered_link a:after {
+  content: '»';
+  font-size: 1.3em;
+  padding-left: 5px;
+}
+
+/* line 56, _healcode.scss */
+div.class_description {
+  padding-bottom: 10px;
+}
+
+/* line 60, _healcode.scss */
+div.healcode .class_list .class_show {
+  padding-bottom: 1em;
+}
+
+/* homepage single day schedule */
+/* line 65, _healcode.scss */
+body.home div.healcode h1, body.home div.healcode div.header {
+  display: none;
+}
+
+/* line 69, _healcode.scss */
+body.home div.healcode {
+  font-size: .9em;
+  margin: 6px auto;
+}
+
+/* line 74, _healcode.scss */
+body.home div.healcode input.signup_now {
+  font-size: 11px;
+}
+
+/* line 78, _healcode.scss */
+body.home div.healcode table.schedule tr th.mbo_class {
+  width: 75px;
+}
+
+/* line 82, _healcode.scss */
+body.home div.healcode table.schedule tr th.trainer {
+  width: 75px;
+}
+
+/* line 86, _healcode.scss */
+div#content div.schedule h1 {
+  font-size: 1.8em;
+}
+
+/* hides components of healcode */
+/* line 91, _healcode.scss */
+div.class_visit_type, div.class_group, div.entry-content div.healcode .header .filters, span.day_links {
+  display: none;
+}
+
+/* line 95, _healcode.scss */
+div.healcode .hc_tiny, div.healcode a.hc-button.signup_now {
+  display: none;
+}
+
+/*
+
+div.healcode div:last-of-type{
+    display: none;
+}*/
+/* line 105, _healcode.scss */
+div.healcode div div a img {
+  display: none;
+}
+
+/* line 109, _healcode.scss */
+img.trainer_image {
+  float: left !important;
+  margin: 0 10px 5px 0;
+  padding: 5px;
+  background: none repeat scroll 0 0 #F7F4E3;
+  box-shadow: 0 0 2px #998A51;
+}
+
+/* line 117, _healcode.scss */
+html body.page div#ui-datepicker-div.ui-datepicker {
+  z-index: 10 !important;
+  padding-top: 7px !important;
+}
+
+/* line 122, _healcode.scss */
+.ui-datepicker-next {
+  left: 87% !important;
+  margin-top: 1px;
+}
+
+/* line 127, _healcode.scss */
+.ui-datepicker-previous {
+  margin-top: 1px;
+}
+
+/* hides the "back to list" link on teacher schedule pages */
+/* line 132, _healcode.scss */
+div.healcode div.trainer_show div.back_link {
+  display: none;
+}
+
+/* line 1, _testimonials.scss */
+pre {
+  background: inherit;
+  font: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+/* line 10, _testimonials.scss */
+.widget_woothemes_testimonials .testimonials {
+  position: relative;
+}
+/* line 13, _testimonials.scss */
+.widget_woothemes_testimonials .quote {
+  background: url("images/quote-testimonials.png") no-repeat top left;
+  background-position: 0 1%;
+  margin: 0 0 1.618em;
+  clear: both;
+  display: inline-block;
+}
+/* line 20, _testimonials.scss */
+.widget_woothemes_testimonials .quote .testimonials-text {
+  margin: 0 0 1.2em 2.618em;
+  font-size: .95em;
+  font-family: "Georgia";
+  font-style: italic;
+  word-wrap: break-word;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+/* line 31, _testimonials.scss */
+.widget_woothemes_testimonials .quote img {
+  width: 5em;
+  height: 5em;
+  margin: 0 1.2em 1.2em 2.618em;
+  float: left;
+  border: 1px solid #eaeaea;
+  padding: .302em;
+}
+/* line 39, _testimonials.scss */
+.widget_woothemes_testimonials .quote .author {
+  word-wrap: break-word;
+  float: left;
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  width: 50%;
+}
+/* line 46, _testimonials.scss */
+.widget_woothemes_testimonials .quote .author .excerpt {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+}
+/* line 51, _testimonials.scss */
+.widget_woothemes_testimonials .quote .author .url {
+  font-weight: normal;
+}
+
+/* line 58, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials, #footer-widgets .widget_woothemes_testimonials {
+  /* FlexSlider Necessary Styles */
+  /* Hide the slides before the JS is loaded. Avoids image jumping */
+  /* Clearfix for the .slides element */
+}
+/* line 59, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .quote, #footer-widgets .widget_woothemes_testimonials .quote {
+  margin: 0 0 1.618em;
+}
+/* line 62, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .flex-direction-nav, #footer-widgets .widget_woothemes_testimonials .flex-direction-nav {
+  position: absolute;
+  top: -1em;
+  right: 1.75em;
+}
+/* line 66, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .flex-direction-nav a, #footer-widgets .widget_woothemes_testimonials .flex-direction-nav a {
+  opacity: 1;
+  width: 7px;
+  height: 12px;
+  background-image: url("images/bg_directional_nav_testimonials.png");
+}
+/* line 72, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .flex-direction-nav .flex-prev, #footer-widgets .widget_woothemes_testimonials .flex-direction-nav .flex-prev {
+  left: 0;
+}
+/* line 75, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .flex-direction-nav .flex-next, #footer-widgets .widget_woothemes_testimonials .flex-direction-nav .flex-next {
+  right: -20px;
+}
+/* line 80, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .testimonials, #footer-widgets .widget_woothemes_testimonials .testimonials {
+  margin: 0;
+  padding: 0;
+}
+/* line 81, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list > .quote, #footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list > .quote {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* line 82, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list img, #footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list img {
+  max-width: 100%;
+  display: block;
+}
+/* line 85, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials .testimonials .testimonials-list:after, #footer-widgets .widget_woothemes_testimonials .testimonials .testimonials-list:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 86, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials html[xmlns] .testimonials .testimonials-list, #footer-widgets .widget_woothemes_testimonials html[xmlns] .testimonials .testimonials-list {
+  display: block;
+}
+/* line 87, _testimonials.scss */
+#sidebar .widget_woothemes_testimonials * html .testimonials .testimonials-list, #footer-widgets .widget_woothemes_testimonials * html .testimonials .testimonials-list {
+  height: 1%;
+}
+/* line 89, _testimonials.scss */
+#sidebar .widget_woo_component, #footer-widgets .widget_woo_component {
+  padding-bottom: 0;
+  border: 0;
+}
+/* line 93, _testimonials.scss */
+#sidebar .widget_woo_component #blog-posts .item, #footer-widgets .widget_woo_component #blog-posts .item {
+  margin-right: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, _iconfont.scss */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+/* line 30, _iconfont.scss */
+.icon-facebook, .icon-facebook-2, .icon-facebook-3, .icon-twitter, .icon-twitter-2, .icon-twitter-3, .icon-linkedin, .icon-linkedin-2, .icon-link, .icon-mail, .icon-mail-2, .icon-phone, .icon-home, .icon-address-book, .icon-file-pdf, .icon-film, .icon-comments, .icon-user, .icon-star, .icon-heart, .icon-heart-2, .icon-arrow-up, .icon-arrow-right, .icon-arrow-down, .icon-arrow-left, .icon-arrow-up-2, .icon-arrow-right-2, .icon-arrow-down-2, .icon-arrow-left-2, .icon-wordpress, .icon-paperclip, .icon-download, .icon-arrow-down-alt1, .icon-mobile, .icon-earth, .icon-zoom-in, .icon-search, .icon-rocket, .icon-coffee, .icon-wrench, .icon-zoom-out, .icon-cog, .icon-plus, .icon-minus, .icon-help, .icon-blocked, .icon-cancel, .icon-cancel-2, .icon-checkmark, .icon-minus-2, .icon-plus-2, .icon-droplet, .icon-play, .icon-camera, .icon-music, .icon-printer, .icon-user-2, .icon-key, .icon-locked, .icon-gift, .icon-fire, .icon-lab, .icon-music-2, .icon-mobile-2, .icon-gift-2, .icon-map-pin-stroke, .icon-location, .icon-paypal, .icon-skype, .icon-yelp, .icon-home-2, .icon-pencil, .icon-pencil-2, .icon-broadcast, .icon-clock, .icon-camera-2, .icon-comments-2, .icon-accessibility, .icon-star-2, .icon-attachment, .icon-google-plus, .icon-google-plus-2, .icon-plus-alt, .icon-minus-alt, .icon-x-altx-alt, .icon-check-alt, .icon-checkmark-2, .icon-x, .icon-move-alt2, .icon-arrow-left-alt1, .icon-arrow-right-alt1, .icon-arrow-up-alt1, .icon-microphone, .icon-headphones, .icon-calendar, .icon-calendar-2, .icon-pictures, .icon-file, .icon-phone-2, .icon-pie, .icon-bars, .icon-bell, .icon-accessibility-2 {
+  font-family: 'icomoon', arial, sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 40, _iconfont.scss */
+.icon-facebook:before {
+  content: "\e000";
+}
+
+/* line 43, _iconfont.scss */
+.icon-facebook-2:before {
+  content: "\e002";
+}
+
+/* line 46, _iconfont.scss */
+.icon-facebook-3:before {
+  content: "\e001";
+}
+
+/* line 49, _iconfont.scss */
+.icon-twitter:before {
+  content: "\e003";
+}
+
+/* line 52, _iconfont.scss */
+.icon-twitter-2:before {
+  content: "\e004";
+}
+
+/* line 55, _iconfont.scss */
+.icon-twitter-3:before {
+  content: "\e005";
+}
+
+/* line 58, _iconfont.scss */
+.icon-linkedin:before {
+  content: "\e006";
+}
+
+/* line 61, _iconfont.scss */
+.icon-linkedin-2:before {
+  content: "\e007";
+}
+
+/* line 64, _iconfont.scss */
+.icon-link:before {
+  content: "\e008";
+}
+
+/* line 67, _iconfont.scss */
+.icon-mail:before {
+  content: "\e009";
+}
+
+/* line 70, _iconfont.scss */
+.icon-mail-2:before {
+  content: "\e00a";
+}
+
+/* line 73, _iconfont.scss */
+.icon-phone:before {
+  content: "\e00b";
+}
+
+/* line 76, _iconfont.scss */
+.icon-home:before {
+  content: "\e00c";
+}
+
+/* line 79, _iconfont.scss */
+.icon-address-book:before {
+  content: "\e00d";
+}
+
+/* line 82, _iconfont.scss */
+.icon-file-pdf:before {
+  content: "\e00e";
+}
+
+/* line 85, _iconfont.scss */
+.icon-film:before {
+  content: "\e00f";
+}
+
+/* line 88, _iconfont.scss */
+.icon-comments:before {
+  content: "\e010";
+}
+
+/* line 91, _iconfont.scss */
+.icon-user:before {
+  content: "\e011";
+}
+
+/* line 94, _iconfont.scss */
+.icon-star:before {
+  content: "\e012";
+}
+
+/* line 97, _iconfont.scss */
+.icon-heart:before {
+  content: "\e013";
+}
+
+/* line 100, _iconfont.scss */
+.icon-heart-2:before {
+  content: "\e014";
+}
+
+/* line 103, _iconfont.scss */
+.icon-arrow-up:before {
+  content: "\e015";
+}
+
+/* line 106, _iconfont.scss */
+.icon-arrow-right:before {
+  content: "\e016";
+}
+
+/* line 109, _iconfont.scss */
+.icon-arrow-down:before {
+  content: "\e017";
+}
+
+/* line 112, _iconfont.scss */
+.icon-arrow-left:before {
+  content: "\e018";
+}
+
+/* line 115, _iconfont.scss */
+.icon-arrow-up-2:before {
+  content: "\e019";
+}
+
+/* line 118, _iconfont.scss */
+.icon-arrow-right-2:before {
+  content: "\e01a";
+}
+
+/* line 121, _iconfont.scss */
+.icon-arrow-down-2:before {
+  content: "\e01b";
+}
+
+/* line 124, _iconfont.scss */
+.icon-arrow-left-2:before {
+  content: "\e01c";
+}
+
+/* line 127, _iconfont.scss */
+.icon-wordpress:before {
+  content: "\e01d";
+}
+
+/* line 130, _iconfont.scss */
+.icon-paperclip:before {
+  content: "\e01f";
+}
+
+/* line 133, _iconfont.scss */
+.icon-download:before {
+  content: "\e021";
+}
+
+/* line 136, _iconfont.scss */
+.icon-arrow-down-alt1:before {
+  content: "\e022";
+}
+
+/* line 139, _iconfont.scss */
+.icon-mobile:before {
+  content: "\e01e";
+}
+
+/* line 142, _iconfont.scss */
+.icon-earth:before {
+  content: "\e020";
+}
+
+/* line 145, _iconfont.scss */
+.icon-zoom-in:before {
+  content: "\e023";
+}
+
+/* line 148, _iconfont.scss */
+.icon-search:before {
+  content: "\e024";
+}
+
+/* line 151, _iconfont.scss */
+.icon-rocket:before {
+  content: "\e025";
+}
+
+/* line 154, _iconfont.scss */
+.icon-coffee:before {
+  content: "\e026";
+}
+
+/* line 157, _iconfont.scss */
+.icon-wrench:before {
+  content: "\e027";
+}
+
+/* line 160, _iconfont.scss */
+.icon-zoom-out:before {
+  content: "\e028";
+}
+
+/* line 163, _iconfont.scss */
+.icon-cog:before {
+  content: "\e029";
+}
+
+/* line 166, _iconfont.scss */
+.icon-plus:before {
+  content: "\e02a";
+}
+
+/* line 169, _iconfont.scss */
+.icon-minus:before {
+  content: "\e02b";
+}
+
+/* line 172, _iconfont.scss */
+.icon-help:before {
+  content: "\e02c";
+}
+
+/* line 175, _iconfont.scss */
+.icon-blocked:before {
+  content: "\e02d";
+}
+
+/* line 178, _iconfont.scss */
+.icon-cancel:before {
+  content: "\e02e";
+}
+
+/* line 181, _iconfont.scss */
+.icon-cancel-2:before {
+  content: "\e02f";
+}
+
+/* line 184, _iconfont.scss */
+.icon-checkmark:before {
+  content: "\e030";
+}
+
+/* line 187, _iconfont.scss */
+.icon-minus-2:before {
+  content: "\e031";
+}
+
+/* line 190, _iconfont.scss */
+.icon-plus-2:before {
+  content: "\e032";
+}
+
+/* line 193, _iconfont.scss */
+.icon-droplet:before {
+  content: "\e033";
+}
+
+/* line 196, _iconfont.scss */
+.icon-play:before {
+  content: "\e034";
+}
+
+/* line 199, _iconfont.scss */
+.icon-camera:before {
+  content: "\e035";
+}
+
+/* line 202, _iconfont.scss */
+.icon-music:before {
+  content: "\e036";
+}
+
+/* line 205, _iconfont.scss */
+.icon-printer:before {
+  content: "\e037";
+}
+
+/* line 208, _iconfont.scss */
+.icon-user-2:before {
+  content: "\e038";
+}
+
+/* line 211, _iconfont.scss */
+.icon-key:before {
+  content: "\e039";
+}
+
+/* line 214, _iconfont.scss */
+.icon-locked:before {
+  content: "\e03a";
+}
+
+/* line 217, _iconfont.scss */
+.icon-gift:before {
+  content: "\e03b";
+}
+
+/* line 220, _iconfont.scss */
+.icon-fire:before {
+  content: "\e03c";
+}
+
+/* line 223, _iconfont.scss */
+.icon-lab:before {
+  content: "\e03d";
+}
+
+/* line 226, _iconfont.scss */
+.icon-music-2:before {
+  content: "\e03e";
+}
+
+/* line 229, _iconfont.scss */
+.icon-mobile-2:before {
+  content: "\e03f";
+}
+
+/* line 232, _iconfont.scss */
+.icon-gift-2:before {
+  content: "\e040";
+}
+
+/* line 235, _iconfont.scss */
+.icon-map-pin-stroke:before {
+  content: "\e041";
+}
+
+/* line 238, _iconfont.scss */
+.icon-location:before {
+  content: "\e042";
+}
+
+/* line 241, _iconfont.scss */
+.icon-paypal:before {
+  content: "\e043";
+}
+
+/* line 244, _iconfont.scss */
+.icon-skype:before {
+  content: "\e044";
+}
+
+/* line 247, _iconfont.scss */
+.icon-yelp:before {
+  content: "\e045";
+}
+
+/* line 250, _iconfont.scss */
+.icon-home-2:before {
+  content: "\e046";
+}
+
+/* line 253, _iconfont.scss */
+.icon-pencil:before {
+  content: "\e047";
+}
+
+/* line 256, _iconfont.scss */
+.icon-pencil-2:before {
+  content: "\e048";
+}
+
+/* line 259, _iconfont.scss */
+.icon-broadcast:before {
+  content: "\e049";
+}
+
+/* line 262, _iconfont.scss */
+.icon-clock:before {
+  content: "\e04a";
+}
+
+/* line 265, _iconfont.scss */
+.icon-camera-2:before {
+  content: "\e04b";
+}
+
+/* line 268, _iconfont.scss */
+.icon-comments-2:before {
+  content: "\e04c";
+}
+
+/* line 271, _iconfont.scss */
+.icon-accessibility:before {
+  content: "\e04d";
+}
+
+/* line 274, _iconfont.scss */
+.icon-star-2:before {
+  content: "\e04e";
+}
+
+/* line 277, _iconfont.scss */
+.icon-attachment:before {
+  content: "\e04f";
+}
+
+/* line 280, _iconfont.scss */
+.icon-google-plus:before {
+  content: "\e050";
+}
+
+/* line 283, _iconfont.scss */
+.icon-google-plus-2:before {
+  content: "\e051";
+}
+
+/* line 286, _iconfont.scss */
+.icon-plus-alt:before {
+  content: "\e052";
+}
+
+/* line 289, _iconfont.scss */
+.icon-minus-alt:before {
+  content: "\e053";
+}
+
+/* line 292, _iconfont.scss */
+.icon-x-altx-alt:before {
+  content: "\e054";
+}
+
+/* line 295, _iconfont.scss */
+.icon-check-alt:before {
+  content: "\e055";
+}
+
+/* line 298, _iconfont.scss */
+.icon-checkmark-2:before {
+  content: "\e056";
+}
+
+/* line 301, _iconfont.scss */
+.icon-x:before {
+  content: "\e057";
+}
+
+/* line 304, _iconfont.scss */
+.icon-move-alt2:before {
+  content: "\e058";
+}
+
+/* line 307, _iconfont.scss */
+.icon-arrow-left-alt1:before {
+  content: "\e059";
+}
+
+/* line 310, _iconfont.scss */
+.icon-arrow-right-alt1:before {
+  content: "\e05a";
+}
+
+/* line 313, _iconfont.scss */
+.icon-arrow-up-alt1:before {
+  content: "\e05b";
+}
+
+/* line 316, _iconfont.scss */
+.icon-microphone:before {
+  content: "\e05c";
+}
+
+/* line 319, _iconfont.scss */
+.icon-headphones:before {
+  content: "\e05d";
+}
+
+/* line 322, _iconfont.scss */
+.icon-calendar:before {
+  content: "\e05e";
+}
+
+/* line 325, _iconfont.scss */
+.icon-calendar-2:before {
+  content: "\e05f";
+}
+
+/* line 328, _iconfont.scss */
+.icon-pictures:before {
+  content: "\e060";
+}
+
+/* line 331, _iconfont.scss */
+.icon-file:before {
+  content: "\e061";
+}
+
+/* line 334, _iconfont.scss */
+.icon-phone-2:before {
+  content: "\e062";
+}
+
+/* line 337, _iconfont.scss */
+.icon-pie:before {
+  content: "\e063";
+}
+
+/* line 340, _iconfont.scss */
+.icon-bars:before {
+  content: "\e064";
+}
+
+/* line 343, _iconfont.scss */
+.icon-bell:before {
+  content: "\e065";
+}
+
+/* line 346, _iconfont.scss */
+.icon-accessibility-2:before {
+  content: "\e066";
+}
+
+/*our team plugin specific*/
+/* line 3, _ourteam.scss */
+.widget_woothemes_our_team .columns-2,
+.widget_woothemes_our_team .columns-3,
+.widget_woothemes_our_team .columns-4,
+.widget_woothemes_our_team .columns-5,
+.widget_woothemes_our_team .columns-6 {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 11, _ourteam.scss */
+.widget_woothemes_our_team .columns-2 .team-member,
+.widget_woothemes_our_team .columns-3 .team-member,
+.widget_woothemes_our_team .columns-4 .team-member,
+.widget_woothemes_our_team .columns-5 .team-member,
+.widget_woothemes_our_team .columns-6 .team-member {
+  float: left;
+  margin-right: 3.8%;
+}
+
+/* line 19, _ourteam.scss */
+.widget_woothemes_our_team .columns-2 .team-member.first,
+.widget_woothemes_our_team .columns-3 .team-member.first,
+.widget_woothemes_our_team .columns-4 .team-member.first,
+.widget_woothemes_our_team .columns-5 .team-member.first,
+.widget_woothemes_our_team .columns-6 .team-member.first {
+  clear: both;
+}
+
+/* line 26, _ourteam.scss */
+.widget_woothemes_our_team .columns-2 .team-member.last,
+.widget_woothemes_our_team .columns-3 .team-member.last,
+.widget_woothemes_our_team .columns-4 .team-member.last,
+.widget_woothemes_our_team .columns-5 .team-member.last,
+.widget_woothemes_our_team .columns-6 .team-member.last {
+  margin-right: 0;
+}
+
+/* line 33, _ourteam.scss */
+.widget_woothemes_our_team .columns-2 .team-member {
+  width: 48%;
+}
+
+/* line 36, _ourteam.scss */
+.widget_woothemes_our_team .columns-3 .team-member {
+  width: 30.75%;
+}
+
+/* line 39, _ourteam.scss */
+.widget_woothemes_our_team .columns-4 .team-member {
+  width: 22.05%;
+}
+
+/* line 42, _ourteam.scss */
+.widget_woothemes_our_team .columns-5 .team-member {
+  width: 16.9%;
+}
+
+/* line 45, _ourteam.scss */
+.widget_woothemes_our_team .columns-6 .team-member {
+  width: 13.5%;
+}
+
+/************************************* RESPONSIVE DESIGN  **********************************************/
+/* Rules to govern all widths up to 1024px */
+@media only screen and (max-width: 1024px) {
+  /* line 9, _responsive.scss */
+  body.page-id-443 div#primary div.wp-caption:nth-child(3n+1) {
+    /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 23px 20px 0;
+  }
+
+  /* line 13, _responsive.scss */
+  body.page-id-443 div#primary div.wp-caption:nth-child(4n+1) {
+    /* used to be so that the 3rd picture in a row doesn't have any margin, thus allowing things to flow better and more evenly, but I'm resetting it here for mobile*/
+    margin: 0 0px 20px 0;
+  }
+}
+/* #Tablet (Landscape)
+
+================================================== */
+/* Note: Design for a width of 1024px */
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+  /* line 27, _responsive.scss */
+  body.home #header-widget {
+    width: 64%;
+  }
+
+  /* line 31, _responsive.scss */
+  body.home #header #logo img {
+    width: 100%;
+  }
+
+  /* line 35, _responsive.scss */
+  #access li {
+    font-size: 12px;
+  }
+
+  /* line 39, _responsive.scss */
+  input#s {
+    /*resizes the search bar for smaller sizes*/
+    font-size: 12px;
+    padding: 2px 6px 2px 28px;
+  }
+
+  /*so that the sidebar image fills the space better*/
+  /* line 46, _responsive.scss */
+  div#sidebar-featured-image img.wp-post-image {
+    width: 100%;
+  }
+
+  /* line 50, _responsive.scss */
+  .sidebar-image-round {
+    height: auto;
+    margin: 0;
+    max-height: 278px;
+    padding: 0;
+  }
+
+  /*footer*/
+  /* line 59, _responsive.scss */
+  #supplementary.three .widget-area {
+    margin-right: 1.7%;
+    width: auto;
+  }
+
+  /* line 64, _responsive.scss */
+  div#supplementary.three div#second.widget-area {
+    width: 27%;
+  }
+
+  /* line 68, _responsive.scss */
+  div#secondary div.ssw_image_element, div#secondary div.ssw_image_element img {
+    /*so that the homepage slideshow presents in full width, not cropping any7thing unnescessarily*/
+    width: 99% !important;
+  }
+}
+/* #Tablet (Portrait)
+
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 82, _responsive.scss */
+  #page {
+    max-width: 960px;
+  }
+
+  /* line 86, _responsive.scss */
+  #header {
+    width: 99%;
+  }
+
+  /* line 90, _responsive.scss */
+  input#s {
+    /*resizes the search bar for smaller sizes*/
+    font-size: 12px;
+    padding: 0px 6px 0px 28px;
+  }
+
+  /* line 95, _responsive.scss */
+  div#navbar #s {
+    background-position: 3px center;
+  }
+
+  /* line 99, _responsive.scss */
+  div#navbar #s:focus {
+    width: 100px;
+    /*how big the field should get after being clicked on*/
+  }
+
+  /* line 104, _responsive.scss */
+  #primary {
+    /*makes it so that the main content area takes up the whole screen, and the sidebar falls below*/
+    padding: 10px 0 20px;
+    width: 100%;
+  }
+
+  /* line 109, _responsive.scss */
+  #main #content {
+    margin: 0 2.5%;
+    /*ensures the main content blocks are proportionately padded*/
+    width: 95%;
+  }
+
+  /* line 114, _responsive.scss */
+  #main #secondary {
+    /*makes it so that the sidebar content area takes up the whole screen and falls below the main area*/
+    float: right;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* line 120, _responsive.scss */
+  div#secondary div#smartslideshowwidget-2 div.ssw_main {
+    /*so the slideshow is centered*/
+    margin: 0 auto !important;
+  }
+
+  /* line 124, _responsive.scss */
+  #header-widget {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  /* line 130, _responsive.scss */
+  #access li {
+    font-size: 11px;
+  }
+
+  /* line 134, _responsive.scss */
+  .sidebar-image-round {
+    /*so that the top sidebar image doesn't display, since it's not wide enough to fill the space*/
+    display: none;
+  }
+
+  /*HOMEPAGE*/
+  /* line 140, _responsive.scss */
+  #header-widget div#text-6 {
+    right: 10px;
+  }
+
+  /* line 144, _responsive.scss */
+  body.home #header #logo {
+    width: 30%;
+  }
+
+  /* line 148, _responsive.scss */
+  body.home #header #logo img {
+    width: 100%;
+    margin-top: 30px;
+    /*so that it appears more vertically centered*/
+  }
+
+  /* line 153, _responsive.scss */
+  body.home #header-widget {
+    width: 63%;
+  }
+
+  /* line 157, _responsive.scss */
+  div#homepage-intro {
+    font-size: 12px;
+  }
+
+  /*footer*/
+  /* line 164, _responsive.scss */
+  #colophon #supplementary .widget-area {
+    float: left;
+    width: 50%;
+    margin-right: 0;
+  }
+
+  /* line 170, _responsive.scss */
+  div#supplementary.three div#third.widget-area {
+    /*takes out the recent blog comments so that the address still stays*/
+    display: none;
+  }
+
+  /* line 174, _responsive.scss */
+  #site-generator {
+    padding: 20px 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+  /* line 183, _responsive.scss */
+  div#homepage-intro {
+    font-size: 11px;
+  }
+}

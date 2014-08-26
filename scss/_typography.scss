@@ -13,9 +13,16 @@ div#content h1, div#content h2, div#content h3 {
 }
 
 
-div#content h1 {
-	font-size:2em;
-	margin-bottom:5px;
+div#content {
+	h1 {
+		font-size:2em;
+		margin-bottom:5px;
+	}
+	h2 {
+		font-size: 1.5em;
+		font-weight: normal;
+		font-weight: 400;
+	}
 }
 
 #supplementary h3 {
@@ -24,7 +31,7 @@ div#content h1 {
 	font-size: 12px;
 }
 
-div#content h2, #secondary h2 {
+#secondary h2 {
 	font-size:18px;
 }
 
